@@ -1,0 +1,4922 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Wed Nov  1 19:27:39 2023
+# Process ID: 13048
+# Current directory: C:/Users/Alice/Desktop/RISC_Processor
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4000 C:\Users\Alice\Desktop\RISC_Processor\RISC_Processor.xpr
+# Log file: C:/Users/Alice/Desktop/RISC_Processor/vivado.log
+# Journal file: C:/Users/Alice/Desktop/RISC_Processor\vivado.jou
+# Running On: Alice-Bucur, OS: Windows, CPU Frequency: 2370 MHz, CPU Physical cores: 6, Host memory: 16348 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kc705/1.6/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu1500/1.2/board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.4 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc707/1.4/board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.8 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc709/1.8/board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.3/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.4/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu1525/1.3/board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_mpsoc:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_mpsoc/1.0/board.xml as part xczu19eg-ffvd1760-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_rfsoc:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_rfsoc/1.0/board.xml as part xczu21dr-ffvd1156-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.3 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.3/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.4 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc706/1.4/board.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.3 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.3/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.4 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.4/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.2/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.3 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.3/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.4 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.4/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1275:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1275/1.0/board.xml as part xczu29dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1285:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1285/1.0/board.xml as part xczu39dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/production/2.0/board.xml as part xczu48dr-fsvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/production/2.0/board.xml as part xczu49dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2023.1/data/ip'.
+open_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:12 . Memory (MB): peak = 1420.621 ; gain = 12.668
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'Simulation'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'Simulation' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Simulation_vlog.prj"
+ECHO is off.
+ECHO is off.
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.srcs/sources_1/new/Golden_Model.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Golden_Model
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.srcs/sim_1/new/Simulation.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Simulation
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Simulation_behav xil_defaultlib.Simulation xil_defaultlib.glbl -log elaborate.log"
+ECHO is off.
+ECHO is off.
+Vivado Simulator v2023.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Simulation_behav xil_defaultlib.Simulation xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 10 for port 'pc' [C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.srcs/sim_1/new/Simulation.v:73]
+WARNING: [VRFC 10-5021] port 'data_in' is not connected on this instance [C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.srcs/sim_1/new/Simulation.v:66]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Golden_Model
+Compiling module xil_defaultlib.Simulation
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Simulation_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Simulation_behav -key {Behavioral:sim_1:Functional:Simulation} -tclbatch {Simulation.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source Simulation.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+time	 clk reset enable counter
+NOP
+0	 1   0     x
+5	 0   0     x
+NOP
+10	 1   0     x
+15	 0   0     x
+NOP
+20	 1   0     x
+25	 0   0     x
+NOP
+30	 1   0     x
+35	 0   0     x
+NOP
+40	 1   0     x
+45	 0   0     x
+NOP
+50	 1   0     x
+55	 0   0     x
+NOP
+60	 1   0     x
+65	 0   0     x
+NOP
+70	 1   0     x
+75	 0   0     x
+NOP
+80	 1   0     x
+85	 0   0     x
+NOP
+90	 1   0     x
+95	 0   0     x
+NOP
+100	 1   0     x
+105	 0   0     x
+NOP
+110	 1   0     x
+115	 0   0     x
+NOP
+120	 1   0     x
+125	 0   0     x
+NOP
+130	 1   0     x
+135	 0   0     x
+NOP
+140	 1   0     x
+145	 0   0     x
+NOP
+150	 1   0     x
+155	 0   0     x
+NOP
+160	 1   0     x
+165	 0   0     x
+NOP
+170	 1   0     x
+175	 0   0     x
+NOP
+180	 1   0     x
+185	 0   0     x
+NOP
+190	 1   0     x
+195	 0   0     x
+NOP
+200	 1   0     x
+205	 0   0     x
+NOP
+210	 1   0     x
+215	 0   0     x
+NOP
+220	 1   0     x
+225	 0   0     x
+NOP
+230	 1   0     x
+235	 0   0     x
+NOP
+240	 1   0     x
+245	 0   0     x
+NOP
+250	 1   0     x
+255	 0   0     x
+NOP
+260	 1   0     x
+265	 0   0     x
+NOP
+270	 1   0     x
+275	 0   0     x
+NOP
+280	 1   0     x
+285	 0   0     x
+NOP
+290	 1   0     x
+295	 0   0     x
+NOP
+300	 1   0     x
+305	 0   0     x
+NOP
+310	 1   0     x
+315	 0   0     x
+NOP
+320	 1   0     x
+325	 0   0     x
+NOP
+330	 1   0     x
+335	 0   0     x
+NOP
+340	 1   0     x
+345	 0   0     x
+NOP
+350	 1   0     x
+355	 0   0     x
+NOP
+360	 1   0     x
+365	 0   0     x
+NOP
+370	 1   0     x
+375	 0   0     x
+NOP
+380	 1   0     x
+385	 0   0     x
+NOP
+390	 1   0     x
+395	 0   0     x
+NOP
+400	 1   0     x
+405	 0   0     x
+NOP
+410	 1   0     x
+415	 0   0     x
+NOP
+420	 1   0     x
+425	 0   0     x
+NOP
+430	 1   0     x
+435	 0   0     x
+NOP
+440	 1   0     x
+445	 0   0     x
+NOP
+450	 1   0     x
+455	 0   0     x
+NOP
+460	 1   0     x
+465	 0   0     x
+NOP
+470	 1   0     x
+475	 0   0     x
+NOP
+480	 1   0     x
+485	 0   0     x
+NOP
+490	 1   0     x
+495	 0   0     x
+NOP
+500	 1   0     x
+505	 0   0     x
+NOP
+510	 1   0     x
+515	 0   0     x
+NOP
+520	 1   0     x
+525	 0   0     x
+NOP
+530	 1   0     x
+535	 0   0     x
+NOP
+540	 1   0     x
+545	 0   0     x
+NOP
+550	 1   0     x
+555	 0   0     x
+NOP
+560	 1   0     x
+565	 0   0     x
+NOP
+570	 1   0     x
+575	 0   0     x
+NOP
+580	 1   0     x
+585	 0   0     x
+NOP
+590	 1   0     x
+595	 0   0     x
+NOP
+600	 1   0     x
+605	 0   0     x
+NOP
+610	 1   0     x
+615	 0   0     x
+NOP
+620	 1   0     x
+625	 0   0     x
+NOP
+630	 1   0     x
+635	 0   0     x
+NOP
+640	 1   0     x
+645	 0   0     x
+NOP
+650	 1   0     x
+655	 0   0     x
+NOP
+660	 1   0     x
+665	 0   0     x
+NOP
+670	 1   0     x
+675	 0   0     x
+NOP
+680	 1   0     x
+685	 0   0     x
+NOP
+690	 1   0     x
+695	 0   0     x
+NOP
+700	 1   0     x
+705	 0   0     x
+NOP
+710	 1   0     x
+715	 0   0     x
+NOP
+720	 1   0     x
+725	 0   0     x
+NOP
+730	 1   0     x
+735	 0   0     x
+NOP
+740	 1   0     x
+745	 0   0     x
+NOP
+750	 1   0     x
+755	 0   0     x
+NOP
+760	 1   0     x
+765	 0   0     x
+NOP
+770	 1   0     x
+775	 0   0     x
+NOP
+780	 1   0     x
+785	 0   0     x
+NOP
+790	 1   0     x
+795	 0   0     x
+NOP
+800	 1   0     x
+805	 0   0     x
+NOP
+810	 1   0     x
+815	 0   0     x
+NOP
+820	 1   0     x
+825	 0   0     x
+NOP
+830	 1   0     x
+835	 0   0     x
+NOP
+840	 1   0     x
+845	 0   0     x
+NOP
+850	 1   0     x
+855	 0   0     x
+NOP
+860	 1   0     x
+865	 0   0     x
+NOP
+870	 1   0     x
+875	 0   0     x
+NOP
+880	 1   0     x
+885	 0   0     x
+NOP
+890	 1   0     x
+895	 0   0     x
+NOP
+900	 1   0     x
+905	 0   0     x
+NOP
+910	 1   0     x
+915	 0   0     x
+NOP
+920	 1   0     x
+925	 0   0     x
+NOP
+930	 1   0     x
+935	 0   0     x
+NOP
+940	 1   0     x
+945	 0   0     x
+NOP
+950	 1   0     x
+955	 0   0     x
+NOP
+960	 1   0     x
+965	 0   0     x
+NOP
+970	 1   0     x
+975	 0   0     x
+NOP
+980	 1   0     x
+985	 0   0     x
+NOP
+990	 1   0     x
+995	 0   0     x
+NOP
+1000	 1   0     x
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Simulation_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:09 . Memory (MB): peak = 1506.699 ; gain = 31.508
+add_bp {C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.srcs/sources_1/new/Golden_Model.v} 79
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'Simulation'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'Simulation' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Simulation_vlog.prj"
+ECHO is off.
+ECHO is off.
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.srcs/sources_1/new/Golden_Model.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Golden_Model
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.srcs/sim_1/new/Simulation.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Simulation
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'Simulation'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Simulation_behav xil_defaultlib.Simulation xil_defaultlib.glbl -log elaborate.log"
+ECHO is off.
+ECHO is off.
+Vivado Simulator v2023.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Simulation_behav xil_defaultlib.Simulation xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 10 for port 'pc' [C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.srcs/sim_1/new/Simulation.v:73]
+WARNING: [VRFC 10-5021] port 'data_in' is not connected on this instance [C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.srcs/sim_1/new/Simulation.v:66]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Golden_Model
+Compiling module xil_defaultlib.Simulation
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Simulation_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Time resolution is 1 ps
+time	 clk reset enable counter
+Stopped at time : 0 fs : File "C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.srcs/sources_1/new/Golden_Model.v" Line 79
+relaunch_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 1510.969 ; gain = 0.000
+add_bp {C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.srcs/sources_1/new/Golden_Model.v} 80
+run all
+Stopped at time : 0 fs : File "C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.srcs/sources_1/new/Golden_Model.v" Line 80
+remove_bps -file {C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.srcs/sources_1/new/Golden_Model.v} -line 79
+add_bp {C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.srcs/sources_1/new/Golden_Model.v} 79
+remove_bps -file {C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.srcs/sources_1/new/Golden_Model.v} -line 80
+remove_bps -file {C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.srcs/sources_1/new/Golden_Model.v} -line 79
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'Simulation'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'Simulation' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Simulation_vlog.prj"
+ECHO is off.
+ECHO is off.
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.srcs/sources_1/new/Golden_Model.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Golden_Model
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.srcs/sim_1/new/Simulation.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Simulation
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Simulation_behav xil_defaultlib.Simulation xil_defaultlib.glbl -log elaborate.log"
+ECHO is off.
+ECHO is off.
+Vivado Simulator v2023.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Simulation_behav xil_defaultlib.Simulation xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 10 for port 'pc' [C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.srcs/sim_1/new/Simulation.v:73]
+WARNING: [VRFC 10-5021] port 'data_in' is not connected on this instance [C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.srcs/sim_1/new/Simulation.v:66]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Golden_Model
+Compiling module xil_defaultlib.Simulation
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Simulation_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Simulation_behav -key {Behavioral:sim_1:Functional:Simulation} -tclbatch {Simulation.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source Simulation.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+time	 clk reset enable counter
+NOP
+0	 1   0     x
+5	 0   0     x
+NOP
+10	 1   0     x
+15	 0   0     x
+NOP
+20	 1   0     x
+25	 0   0     x
+NOP
+30	 1   0     x
+35	 0   0     x
+NOP
+40	 1   0     x
+45	 0   0     x
+NOP
+50	 1   0     x
+55	 0   0     x
+NOP
+60	 1   0     x
+65	 0   0     x
+NOP
+70	 1   0     x
+75	 0   0     x
+NOP
+80	 1   0     x
+85	 0   0     x
+NOP
+90	 1   0     x
+95	 0   0     x
+NOP
+100	 1   0     x
+105	 0   0     x
+NOP
+110	 1   0     x
+115	 0   0     x
+NOP
+120	 1   0     x
+125	 0   0     x
+NOP
+130	 1   0     x
+135	 0   0     x
+NOP
+140	 1   0     x
+145	 0   0     x
+NOP
+150	 1   0     x
+155	 0   0     x
+NOP
+160	 1   0     x
+165	 0   0     x
+NOP
+170	 1   0     x
+175	 0   0     x
+NOP
+180	 1   0     x
+185	 0   0     x
+NOP
+190	 1   0     x
+195	 0   0     x
+NOP
+200	 1   0     x
+205	 0   0     x
+NOP
+210	 1   0     x
+215	 0   0     x
+NOP
+220	 1   0     x
+225	 0   0     x
+NOP
+230	 1   0     x
+235	 0   0     x
+NOP
+240	 1   0     x
+245	 0   0     x
+NOP
+250	 1   0     x
+255	 0   0     x
+NOP
+260	 1   0     x
+265	 0   0     x
+NOP
+270	 1   0     x
+275	 0   0     x
+NOP
+280	 1   0     x
+285	 0   0     x
+NOP
+290	 1   0     x
+295	 0   0     x
+NOP
+300	 1   0     x
+305	 0   0     x
+NOP
+310	 1   0     x
+315	 0   0     x
+NOP
+320	 1   0     x
+325	 0   0     x
+NOP
+330	 1   0     x
+335	 0   0     x
+NOP
+340	 1   0     x
+345	 0   0     x
+NOP
+350	 1   0     x
+355	 0   0     x
+NOP
+360	 1   0     x
+365	 0   0     x
+NOP
+370	 1   0     x
+375	 0   0     x
+NOP
+380	 1   0     x
+385	 0   0     x
+NOP
+390	 1   0     x
+395	 0   0     x
+NOP
+400	 1   0     x
+405	 0   0     x
+NOP
+410	 1   0     x
+415	 0   0     x
+NOP
+420	 1   0     x
+425	 0   0     x
+NOP
+430	 1   0     x
+435	 0   0     x
+NOP
+440	 1   0     x
+445	 0   0     x
+NOP
+450	 1   0     x
+455	 0   0     x
+NOP
+460	 1   0     x
+465	 0   0     x
+NOP
+470	 1   0     x
+475	 0   0     x
+NOP
+480	 1   0     x
+485	 0   0     x
+NOP
+490	 1   0     x
+495	 0   0     x
+NOP
+500	 1   0     x
+505	 0   0     x
+NOP
+510	 1   0     x
+515	 0   0     x
+NOP
+520	 1   0     x
+525	 0   0     x
+NOP
+530	 1   0     x
+535	 0   0     x
+NOP
+540	 1   0     x
+545	 0   0     x
+NOP
+550	 1   0     x
+555	 0   0     x
+NOP
+560	 1   0     x
+565	 0   0     x
+NOP
+570	 1   0     x
+575	 0   0     x
+NOP
+580	 1   0     x
+585	 0   0     x
+NOP
+590	 1   0     x
+595	 0   0     x
+NOP
+600	 1   0     x
+605	 0   0     x
+NOP
+610	 1   0     x
+615	 0   0     x
+NOP
+620	 1   0     x
+625	 0   0     x
+NOP
+630	 1   0     x
+635	 0   0     x
+NOP
+640	 1   0     x
+645	 0   0     x
+NOP
+650	 1   0     x
+655	 0   0     x
+NOP
+660	 1   0     x
+665	 0   0     x
+NOP
+670	 1   0     x
+675	 0   0     x
+NOP
+680	 1   0     x
+685	 0   0     x
+NOP
+690	 1   0     x
+695	 0   0     x
+NOP
+700	 1   0     x
+705	 0   0     x
+NOP
+710	 1   0     x
+715	 0   0     x
+NOP
+720	 1   0     x
+725	 0   0     x
+NOP
+730	 1   0     x
+735	 0   0     x
+NOP
+740	 1   0     x
+745	 0   0     x
+NOP
+750	 1   0     x
+755	 0   0     x
+NOP
+760	 1   0     x
+765	 0   0     x
+NOP
+770	 1   0     x
+775	 0   0     x
+NOP
+780	 1   0     x
+785	 0   0     x
+NOP
+790	 1   0     x
+795	 0   0     x
+NOP
+800	 1   0     x
+805	 0   0     x
+NOP
+810	 1   0     x
+815	 0   0     x
+NOP
+820	 1   0     x
+825	 0   0     x
+NOP
+830	 1   0     x
+835	 0   0     x
+NOP
+840	 1   0     x
+845	 0   0     x
+NOP
+850	 1   0     x
+855	 0   0     x
+NOP
+860	 1   0     x
+865	 0   0     x
+NOP
+870	 1   0     x
+875	 0   0     x
+NOP
+880	 1   0     x
+885	 0   0     x
+NOP
+890	 1   0     x
+895	 0   0     x
+NOP
+900	 1   0     x
+905	 0   0     x
+NOP
+910	 1   0     x
+915	 0   0     x
+NOP
+920	 1   0     x
+925	 0   0     x
+NOP
+930	 1   0     x
+935	 0   0     x
+NOP
+940	 1   0     x
+945	 0   0     x
+NOP
+950	 1   0     x
+955	 0   0     x
+NOP
+960	 1   0     x
+965	 0   0     x
+NOP
+970	 1   0     x
+975	 0   0     x
+NOP
+980	 1   0     x
+985	 0   0     x
+NOP
+990	 1   0     x
+995	 0   0     x
+NOP
+1000	 1   0     x
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Simulation_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 1514.016 ; gain = 3.047
+add_bp {C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.srcs/sources_1/new/Golden_Model.v} 80
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'Simulation'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Simulation_vlog.prj"
+ECHO is off.
+ECHO is off.
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'Simulation'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Simulation_behav xil_defaultlib.Simulation xil_defaultlib.glbl -log elaborate.log"
+ECHO is off.
+ECHO is off.
+Vivado Simulator v2023.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Simulation_behav xil_defaultlib.Simulation xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 10 for port 'pc' [C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.srcs/sim_1/new/Simulation.v:73]
+WARNING: [VRFC 10-5021] port 'data_in' is not connected on this instance [C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.srcs/sim_1/new/Simulation.v:66]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Time resolution is 1 ps
+time	 clk reset enable counter
+Stopped at time : 0 fs : File "C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.srcs/sources_1/new/Golden_Model.v" Line 80
+relaunch_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 1514.078 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'Simulation'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'Simulation' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Simulation_vlog.prj"
+ECHO is off.
+ECHO is off.
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.srcs/sources_1/new/Golden_Model.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Golden_Model
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.srcs/sim_1/new/Simulation.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Simulation
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Simulation_behav xil_defaultlib.Simulation xil_defaultlib.glbl -log elaborate.log"
+ECHO is off.
+ECHO is off.
+Vivado Simulator v2023.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Simulation_behav xil_defaultlib.Simulation xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-5021] port 'data_in' is not connected on this instance [C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.srcs/sim_1/new/Simulation.v:65]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Golden_Model
+Compiling module xil_defaultlib.Simulation
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Simulation_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Simulation_behav -key {Behavioral:sim_1:Functional:Simulation} -tclbatch {Simulation.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source Simulation.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+time	 clk reset enable counter
+Stopped at time : 0 fs : File "C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.srcs/sources_1/new/Golden_Model.v" Line 80
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Simulation_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 1515.652 ; gain = 1.574
+run all
+NOP
+0	 1   0     xxxxxxxxxx
+5	 0   0     xxxxxxxxxx
+Stopped at time : 10 ns : File "C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.srcs/sources_1/new/Golden_Model.v" Line 80
+run all
+NOP
+10	 1   0     xxxxxxxxxx
+15	 0   0     xxxxxxxxxx
+Stopped at time : 20 ns : File "C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.srcs/sources_1/new/Golden_Model.v" Line 80
+run all
+NOP
+20	 1   0     xxxxxxxxxx
+25	 0   0     xxxxxxxxxx
+Stopped at time : 30 ns : File "C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.srcs/sources_1/new/Golden_Model.v" Line 80
+run all
+NOP
+30	 1   0     xxxxxxxxxx
+35	 0   0     xxxxxxxxxx
+Stopped at time : 40 ns : File "C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.srcs/sources_1/new/Golden_Model.v" Line 80
+run all
+NOP
+40	 1   0     xxxxxxxxxx
+45	 0   0     xxxxxxxxxx
+Stopped at time : 50 ns : File "C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.srcs/sources_1/new/Golden_Model.v" Line 80
+run all
+NOP
+50	 1   0     xxxxxxxxxx
+55	 0   0     xxxxxxxxxx
+Stopped at time : 60 ns : File "C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.srcs/sources_1/new/Golden_Model.v" Line 80
+run all
+NOP
+60	 1   0     xxxxxxxxxx
+65	 0   0     xxxxxxxxxx
+Stopped at time : 70 ns : File "C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.srcs/sources_1/new/Golden_Model.v" Line 80
+run all
+NOP
+70	 1   0     xxxxxxxxxx
+75	 0   0     xxxxxxxxxx
+Stopped at time : 80 ns : File "C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.srcs/sources_1/new/Golden_Model.v" Line 80
+run all
+NOP
+80	 1   0     xxxxxxxxxx
+85	 0   0     xxxxxxxxxx
+Stopped at time : 90 ns : File "C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.srcs/sources_1/new/Golden_Model.v" Line 80
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'Simulation'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Simulation_vlog.prj"
+ECHO is off.
+ECHO is off.
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.srcs/sources_1/new/Golden_Model.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Golden_Model
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.srcs/sim_1/new/Simulation.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Simulation
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'Simulation'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Simulation_behav xil_defaultlib.Simulation xil_defaultlib.glbl -log elaborate.log"
+ECHO is off.
+ECHO is off.
+Vivado Simulator v2023.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Simulation_behav xil_defaultlib.Simulation xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-5021] port 'data_in' is not connected on this instance [C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.srcs/sim_1/new/Simulation.v:66]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Golden_Model
+Compiling module xil_defaultlib.Simulation
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Simulation_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Time resolution is 1 ps
+WARNING: [Simulator 45-24] Previous breakpoint at line 80 in file 'C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.srcs/sources_1/new/Golden_Model.v' not restored because it is no longer a breakable line.
+time	 clk reset enable counter
+NOP
+0	 1   0     0000000000
+5	 0   0     0000000000
+NOP
+10	 1   0     0000000000
+15	 0   0     0000000000
+NOP
+20	 1   0     0000000000
+25	 0   0     0000000000
+NOP
+30	 1   0     0000000000
+35	 0   0     0000000000
+NOP
+40	 1   0     0000000000
+45	 0   0     0000000000
+NOP
+50	 1   0     0000000000
+55	 0   0     0000000000
+NOP
+60	 1   0     0000000000
+65	 0   0     0000000000
+NOP
+70	 1   0     0000000000
+75	 0   0     0000000000
+NOP
+80	 1   0     0000000000
+85	 0   0     0000000000
+NOP
+90	 1   0     0000000000
+95	 0   0     0000000000
+NOP
+100	 1   0     0000000000
+105	 0   0     0000000000
+NOP
+110	 1   0     0000000000
+115	 0   0     0000000000
+NOP
+120	 1   0     0000000000
+125	 0   0     0000000000
+NOP
+130	 1   0     0000000000
+135	 0   0     0000000000
+NOP
+140	 1   0     0000000000
+145	 0   0     0000000000
+NOP
+150	 1   0     0000000000
+155	 0   0     0000000000
+NOP
+160	 1   0     0000000000
+165	 0   0     0000000000
+NOP
+170	 1   0     0000000000
+175	 0   0     0000000000
+NOP
+180	 1   0     0000000000
+185	 0   0     0000000000
+NOP
+190	 1   0     0000000000
+195	 0   0     0000000000
+NOP
+200	 1   0     0000000000
+205	 0   0     0000000000
+NOP
+210	 1   0     0000000000
+215	 0   0     0000000000
+NOP
+220	 1   0     0000000000
+225	 0   0     0000000000
+NOP
+230	 1   0     0000000000
+235	 0   0     0000000000
+NOP
+240	 1   0     0000000000
+245	 0   0     0000000000
+NOP
+250	 1   0     0000000000
+255	 0   0     0000000000
+NOP
+260	 1   0     0000000000
+265	 0   0     0000000000
+NOP
+270	 1   0     0000000000
+275	 0   0     0000000000
+NOP
+280	 1   0     0000000000
+285	 0   0     0000000000
+NOP
+290	 1   0     0000000000
+295	 0   0     0000000000
+NOP
+300	 1   0     0000000000
+305	 0   0     0000000000
+NOP
+310	 1   0     0000000000
+315	 0   0     0000000000
+NOP
+320	 1   0     0000000000
+325	 0   0     0000000000
+NOP
+330	 1   0     0000000000
+335	 0   0     0000000000
+NOP
+340	 1   0     0000000000
+345	 0   0     0000000000
+NOP
+350	 1   0     0000000000
+355	 0   0     0000000000
+NOP
+360	 1   0     0000000000
+365	 0   0     0000000000
+NOP
+370	 1   0     0000000000
+375	 0   0     0000000000
+NOP
+380	 1   0     0000000000
+385	 0   0     0000000000
+NOP
+390	 1   0     0000000000
+395	 0   0     0000000000
+NOP
+400	 1   0     0000000000
+405	 0   0     0000000000
+NOP
+410	 1   0     0000000000
+415	 0   0     0000000000
+NOP
+420	 1   0     0000000000
+425	 0   0     0000000000
+NOP
+430	 1   0     0000000000
+435	 0   0     0000000000
+NOP
+440	 1   0     0000000000
+445	 0   0     0000000000
+NOP
+450	 1   0     0000000000
+455	 0   0     0000000000
+NOP
+460	 1   0     0000000000
+465	 0   0     0000000000
+NOP
+470	 1   0     0000000000
+475	 0   0     0000000000
+NOP
+480	 1   0     0000000000
+485	 0   0     0000000000
+NOP
+490	 1   0     0000000000
+495	 0   0     0000000000
+NOP
+500	 1   0     0000000000
+505	 0   0     0000000000
+NOP
+510	 1   0     0000000000
+515	 0   0     0000000000
+NOP
+520	 1   0     0000000000
+525	 0   0     0000000000
+NOP
+530	 1   0     0000000000
+535	 0   0     0000000000
+NOP
+540	 1   0     0000000000
+545	 0   0     0000000000
+NOP
+550	 1   0     0000000000
+555	 0   0     0000000000
+NOP
+560	 1   0     0000000000
+565	 0   0     0000000000
+NOP
+570	 1   0     0000000000
+575	 0   0     0000000000
+NOP
+580	 1   0     0000000000
+585	 0   0     0000000000
+NOP
+590	 1   0     0000000000
+595	 0   0     0000000000
+NOP
+600	 1   0     0000000000
+605	 0   0     0000000000
+NOP
+610	 1   0     0000000000
+615	 0   0     0000000000
+NOP
+620	 1   0     0000000000
+625	 0   0     0000000000
+NOP
+630	 1   0     0000000000
+635	 0   0     0000000000
+NOP
+640	 1   0     0000000000
+645	 0   0     0000000000
+NOP
+650	 1   0     0000000000
+655	 0   0     0000000000
+NOP
+660	 1   0     0000000000
+665	 0   0     0000000000
+NOP
+670	 1   0     0000000000
+675	 0   0     0000000000
+NOP
+680	 1   0     0000000000
+685	 0   0     0000000000
+NOP
+690	 1   0     0000000000
+695	 0   0     0000000000
+NOP
+700	 1   0     0000000000
+705	 0   0     0000000000
+NOP
+710	 1   0     0000000000
+715	 0   0     0000000000
+NOP
+720	 1   0     0000000000
+725	 0   0     0000000000
+NOP
+730	 1   0     0000000000
+735	 0   0     0000000000
+NOP
+740	 1   0     0000000000
+745	 0   0     0000000000
+NOP
+750	 1   0     0000000000
+755	 0   0     0000000000
+NOP
+760	 1   0     0000000000
+765	 0   0     0000000000
+NOP
+770	 1   0     0000000000
+775	 0   0     0000000000
+NOP
+780	 1   0     0000000000
+785	 0   0     0000000000
+NOP
+790	 1   0     0000000000
+795	 0   0     0000000000
+NOP
+800	 1   0     0000000000
+805	 0   0     0000000000
+NOP
+810	 1   0     0000000000
+815	 0   0     0000000000
+NOP
+820	 1   0     0000000000
+825	 0   0     0000000000
+NOP
+830	 1   0     0000000000
+835	 0   0     0000000000
+NOP
+840	 1   0     0000000000
+845	 0   0     0000000000
+NOP
+850	 1   0     0000000000
+855	 0   0     0000000000
+NOP
+860	 1   0     0000000000
+865	 0   0     0000000000
+NOP
+870	 1   0     0000000000
+875	 0   0     0000000000
+NOP
+880	 1   0     0000000000
+885	 0   0     0000000000
+NOP
+890	 1   0     0000000000
+895	 0   0     0000000000
+NOP
+900	 1   0     0000000000
+905	 0   0     0000000000
+NOP
+910	 1   0     0000000000
+915	 0   0     0000000000
+NOP
+920	 1   0     0000000000
+925	 0   0     0000000000
+NOP
+930	 1   0     0000000000
+935	 0   0     0000000000
+NOP
+940	 1   0     0000000000
+945	 0   0     0000000000
+NOP
+950	 1   0     0000000000
+955	 0   0     0000000000
+NOP
+960	 1   0     0000000000
+965	 0   0     0000000000
+NOP
+970	 1   0     0000000000
+975	 0   0     0000000000
+NOP
+980	 1   0     0000000000
+985	 0   0     0000000000
+NOP
+990	 1   0     0000000000
+995	 0   0     0000000000
+NOP
+1000	 1   0     0000000000
+relaunch_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 1625.590 ; gain = 0.000
+add_bp {C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.srcs/sources_1/new/Golden_Model.v} 93
+remove_bps -file {C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.srcs/sources_1/new/Golden_Model.v} -line 93
+add_bp {C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.srcs/sources_1/new/Golden_Model.v} 61
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'Simulation'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Simulation_vlog.prj"
+ECHO is off.
+ECHO is off.
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.srcs/sources_1/new/Golden_Model.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Golden_Model
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.srcs/sim_1/new/Simulation.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Simulation
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'Simulation'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Simulation_behav xil_defaultlib.Simulation xil_defaultlib.glbl -log elaborate.log"
+ECHO is off.
+ECHO is off.
+Vivado Simulator v2023.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Simulation_behav xil_defaultlib.Simulation xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-5021] port 'data_in' is not connected on this instance [C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.srcs/sim_1/new/Simulation.v:66]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Golden_Model
+Compiling module xil_defaultlib.Simulation
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Simulation_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Time resolution is 1 ps
+time	 clk reset enable counter
+Stopped at time : 0 fs : File "C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.srcs/sources_1/new/Golden_Model.v" Line 61
+relaunch_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 1625.590 ; gain = 0.000
+run all
+NOP
+0	 1   0     0000000000
+5	 0   0     0000000000
+Stopped at time : 10 ns : File "C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.srcs/sources_1/new/Golden_Model.v" Line 61
+run all
+NOP
+10	 1   0     0000000000
+15	 0   0     0000000000
+Stopped at time : 20 ns : File "C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.srcs/sources_1/new/Golden_Model.v" Line 61
+run all
+NOP
+20	 1   0     0000000000
+25	 0   0     0000000000
+Stopped at time : 30 ns : File "C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.srcs/sources_1/new/Golden_Model.v" Line 61
+run all
+NOP
+30	 1   0     0000000000
+35	 0   0     0000000000
+Stopped at time : 40 ns : File "C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.srcs/sources_1/new/Golden_Model.v" Line 61
+add_bp {C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.srcs/sources_1/new/Golden_Model.v} 60
+run all
+NOP
+40	 1   0     0000000000
+45	 0   0     0000000000
+Stopped at time : 50 ns : File "C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.srcs/sources_1/new/Golden_Model.v" Line 60
+run all
+Stopped at time : 50 ns : File "C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.srcs/sources_1/new/Golden_Model.v" Line 61
+remove_bps -file {C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.srcs/sources_1/new/Golden_Model.v} -line 61
+add_bp {C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.srcs/sources_1/new/Golden_Model.v} 61
+remove_bps -file {C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.srcs/sources_1/new/Golden_Model.v} -line 60
+remove_bps -file {C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.srcs/sources_1/new/Golden_Model.v} -line 61
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'Simulation'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'Simulation' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Simulation_vlog.prj"
+ECHO is off.
+ECHO is off.
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.srcs/sources_1/new/Golden_Model.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Golden_Model
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.srcs/sim_1/new/Simulation.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Simulation
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Simulation_behav xil_defaultlib.Simulation xil_defaultlib.glbl -log elaborate.log"
+ECHO is off.
+ECHO is off.
+Vivado Simulator v2023.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Simulation_behav xil_defaultlib.Simulation xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-5021] port 'data_in' is not connected on this instance [C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.srcs/sim_1/new/Simulation.v:68]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Golden_Model
+Compiling module xil_defaultlib.Simulation
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Simulation_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Simulation_behav -key {Behavioral:sim_1:Functional:Simulation} -tclbatch {Simulation.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source Simulation.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+time	 clk reset enable counter
+0	 1   0     0000000000
+5	 0   0     0000000000
+10	 1   0     0000000000
+15	 0   0     0000000000
+20	 1   0     0000000000
+25	 0   0     0000000000
+30	 1   0     0000000000
+35	 0   0     0000000000
+40	 1   0     0000000000
+45	 0   0     0000000000
+50	 1   0     0000000000
+55	 0   0     0000000000
+60	 1   0     0000000000
+65	 0   0     0000000000
+70	 1   0     0000000000
+75	 0   0     0000000000
+80	 1   0     0000000000
+85	 0   0     0000000000
+90	 1   0     0000000000
+95	 0   0     0000000000
+NOP
+100	 1   1     0000000000
+105	 0   1     0000000000
+NOP
+110	 1   1     0000000000
+115	 0   1     0000000000
+NOP
+120	 1   1     0000000000
+125	 0   1     0000000000
+NOP
+130	 1   1     0000000000
+135	 0   1     0000000000
+NOP
+140	 1   1     0000000000
+145	 0   1     0000000000
+NOP
+150	 1   1     0000000000
+155	 0   1     0000000000
+NOP
+160	 1   1     0000000000
+165	 0   1     0000000000
+NOP
+170	 1   1     0000000000
+175	 0   1     0000000000
+NOP
+180	 1   1     0000000000
+185	 0   1     0000000000
+NOP
+190	 1   1     0000000000
+195	 0   1     0000000000
+NOP
+200	 1   1     0000000000
+205	 0   1     0000000000
+NOP
+210	 1   1     0000000000
+215	 0   1     0000000000
+NOP
+220	 1   1     0000000000
+225	 0   1     0000000000
+NOP
+230	 1   1     0000000000
+235	 0   1     0000000000
+NOP
+240	 1   1     0000000000
+245	 0   1     0000000000
+NOP
+250	 1   1     0000000000
+255	 0   1     0000000000
+NOP
+260	 1   1     0000000000
+265	 0   1     0000000000
+NOP
+270	 1   1     0000000000
+275	 0   1     0000000000
+NOP
+280	 1   1     0000000000
+285	 0   1     0000000000
+NOP
+290	 1   1     0000000000
+295	 0   1     0000000000
+NOP
+300	 1   1     0000000000
+305	 0   1     0000000000
+NOP
+310	 1   1     0000000000
+315	 0   1     0000000000
+NOP
+320	 1   1     0000000000
+325	 0   1     0000000000
+NOP
+330	 1   1     0000000000
+335	 0   1     0000000000
+NOP
+340	 1   1     0000000000
+345	 0   1     0000000000
+NOP
+350	 1   1     0000000000
+355	 0   1     0000000000
+NOP
+360	 1   1     0000000000
+365	 0   1     0000000000
+NOP
+370	 1   1     0000000000
+375	 0   1     0000000000
+NOP
+380	 1   1     0000000000
+385	 0   1     0000000000
+NOP
+390	 1   1     0000000000
+395	 0   1     0000000000
+NOP
+400	 1   1     0000000000
+405	 0   1     0000000000
+NOP
+410	 1   1     0000000000
+415	 0   1     0000000000
+NOP
+420	 1   1     0000000000
+425	 0   1     0000000000
+NOP
+430	 1   1     0000000000
+435	 0   1     0000000000
+NOP
+440	 1   1     0000000000
+445	 0   1     0000000000
+NOP
+450	 1   1     0000000000
+455	 0   1     0000000000
+NOP
+460	 1   1     0000000000
+465	 0   1     0000000000
+NOP
+470	 1   1     0000000000
+475	 0   1     0000000000
+NOP
+480	 1   1     0000000000
+485	 0   1     0000000000
+NOP
+490	 1   1     0000000000
+495	 0   1     0000000000
+NOP
+500	 1   1     0000000000
+505	 0   1     0000000000
+NOP
+510	 1   1     0000000000
+515	 0   1     0000000000
+NOP
+520	 1   1     0000000000
+525	 0   1     0000000000
+NOP
+530	 1   1     0000000000
+535	 0   1     0000000000
+NOP
+540	 1   1     0000000000
+545	 0   1     0000000000
+NOP
+550	 1   1     0000000000
+555	 0   1     0000000000
+NOP
+560	 1   1     0000000000
+565	 0   1     0000000000
+NOP
+570	 1   1     0000000000
+575	 0   1     0000000000
+NOP
+580	 1   1     0000000000
+585	 0   1     0000000000
+NOP
+590	 1   1     0000000000
+595	 0   1     0000000000
+NOP
+600	 1   1     0000000000
+605	 0   1     0000000000
+NOP
+610	 1   1     0000000000
+615	 0   1     0000000000
+NOP
+620	 1   1     0000000000
+625	 0   1     0000000000
+NOP
+630	 1   1     0000000000
+635	 0   1     0000000000
+NOP
+640	 1   1     0000000000
+645	 0   1     0000000000
+NOP
+650	 1   1     0000000000
+655	 0   1     0000000000
+NOP
+660	 1   1     0000000000
+665	 0   1     0000000000
+NOP
+670	 1   1     0000000000
+675	 0   1     0000000000
+NOP
+680	 1   1     0000000000
+685	 0   1     0000000000
+NOP
+690	 1   1     0000000000
+695	 0   1     0000000000
+NOP
+700	 1   1     0000000000
+705	 0   1     0000000000
+NOP
+710	 1   1     0000000000
+715	 0   1     0000000000
+NOP
+720	 1   1     0000000000
+725	 0   1     0000000000
+NOP
+730	 1   1     0000000000
+735	 0   1     0000000000
+NOP
+740	 1   1     0000000000
+745	 0   1     0000000000
+NOP
+750	 1   1     0000000000
+755	 0   1     0000000000
+NOP
+760	 1   1     0000000000
+765	 0   1     0000000000
+NOP
+770	 1   1     0000000000
+775	 0   1     0000000000
+NOP
+780	 1   1     0000000000
+785	 0   1     0000000000
+NOP
+790	 1   1     0000000000
+795	 0   1     0000000000
+NOP
+800	 1   1     0000000000
+805	 0   1     0000000000
+NOP
+810	 1   1     0000000000
+815	 0   1     0000000000
+NOP
+820	 1   1     0000000000
+825	 0   1     0000000000
+NOP
+830	 1   1     0000000000
+835	 0   1     0000000000
+NOP
+840	 1   1     0000000000
+845	 0   1     0000000000
+NOP
+850	 1   1     0000000000
+855	 0   1     0000000000
+NOP
+860	 1   1     0000000000
+865	 0   1     0000000000
+NOP
+870	 1   1     0000000000
+875	 0   1     0000000000
+NOP
+880	 1   1     0000000000
+885	 0   1     0000000000
+NOP
+890	 1   1     0000000000
+895	 0   1     0000000000
+NOP
+900	 1   1     0000000000
+905	 0   1     0000000000
+NOP
+910	 1   1     0000000000
+915	 0   1     0000000000
+NOP
+920	 1   1     0000000000
+925	 0   1     0000000000
+NOP
+930	 1   1     0000000000
+935	 0   1     0000000000
+NOP
+940	 1   1     0000000000
+945	 0   1     0000000000
+NOP
+950	 1   1     0000000000
+955	 0   1     0000000000
+NOP
+960	 1   1     0000000000
+965	 0   1     0000000000
+NOP
+970	 1   1     0000000000
+975	 0   1     0000000000
+NOP
+980	 1   1     0000000000
+985	 0   1     0000000000
+NOP
+990	 1   1     0000000000
+995	 0   1     0000000000
+NOP
+1000	 1   1     0000000000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Simulation_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 1625.590 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'Simulation'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'Simulation' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Simulation_vlog.prj"
+ECHO is off.
+ECHO is off.
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.srcs/sources_1/new/Golden_Model.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Golden_Model
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.srcs/sim_1/new/Simulation.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Simulation
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Simulation_behav xil_defaultlib.Simulation xil_defaultlib.glbl -log elaborate.log"
+ECHO is off.
+ECHO is off.
+Vivado Simulator v2023.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Simulation_behav xil_defaultlib.Simulation xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-5021] port 'data_in' is not connected on this instance [C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.srcs/sim_1/new/Simulation.v:68]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Golden_Model
+Compiling module xil_defaultlib.Simulation
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Simulation_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Simulation_behav -key {Behavioral:sim_1:Functional:Simulation} -tclbatch {Simulation.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source Simulation.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+time	 clk reset enable counter
+0	 1   0     0000000000
+5	 0   0     0000000000
+10	 1   0     0000000000
+15	 0   0     0000000000
+20	 1   0     0000000000
+25	 0   0     0000000000
+30	 1   0     0000000000
+35	 0   0     0000000000
+40	 1   0     0000000000
+45	 0   0     0000000000
+50	 1   0     0000000000
+55	 0   0     0000000000
+60	 1   0     0000000000
+65	 0   0     0000000000
+70	 1   0     0000000000
+75	 0   0     0000000000
+80	 1   0     0000000000
+85	 0   0     0000000000
+90	 1   0     0000000000
+95	 0   0     0000000000
+NOP
+100	 1   1     0000000001
+105	 0   1     0000000001
+NOP
+110	 1   1     0000000010
+115	 0   1     0000000010
+NOP
+120	 1   1     0000000011
+125	 0   1     0000000011
+NOP
+130	 1   1     0000000100
+135	 0   1     0000000100
+NOP
+140	 1   1     0000000101
+145	 0   1     0000000101
+NOP
+150	 1   1     0000000110
+155	 0   1     0000000110
+NOP
+160	 1   1     0000000111
+165	 0   1     0000000111
+NOP
+170	 1   1     0000001000
+175	 0   1     0000001000
+NOP
+180	 1   1     0000001001
+185	 0   1     0000001001
+NOP
+190	 1   1     0000001010
+195	 0   1     0000001010
+NOP
+200	 1   1     0000001011
+205	 0   1     0000001011
+NOP
+210	 1   1     0000001100
+215	 0   1     0000001100
+NOP
+220	 1   1     0000001101
+225	 0   1     0000001101
+NOP
+230	 1   1     0000001110
+235	 0   1     0000001110
+NOP
+240	 1   1     0000001111
+245	 0   1     0000001111
+NOP
+250	 1   1     0000010000
+255	 0   1     0000010000
+NOP
+260	 1   1     0000010001
+265	 0   1     0000010001
+NOP
+270	 1   1     0000010010
+275	 0   1     0000010010
+NOP
+280	 1   1     0000010011
+285	 0   1     0000010011
+NOP
+290	 1   1     0000010100
+295	 0   1     0000010100
+NOP
+300	 1   1     0000010101
+305	 0   1     0000010101
+NOP
+310	 1   1     0000010110
+315	 0   1     0000010110
+NOP
+320	 1   1     0000010111
+325	 0   1     0000010111
+NOP
+330	 1   1     0000011000
+335	 0   1     0000011000
+NOP
+340	 1   1     0000011001
+345	 0   1     0000011001
+NOP
+350	 1   1     0000011010
+355	 0   1     0000011010
+NOP
+360	 1   1     0000011011
+365	 0   1     0000011011
+NOP
+370	 1   1     0000011100
+375	 0   1     0000011100
+NOP
+380	 1   1     0000011101
+385	 0   1     0000011101
+NOP
+390	 1   1     0000011110
+395	 0   1     0000011110
+NOP
+400	 1   1     0000011111
+405	 0   1     0000011111
+NOP
+410	 1   1     0000100000
+415	 0   1     0000100000
+NOP
+420	 1   1     0000100001
+425	 0   1     0000100001
+NOP
+430	 1   1     0000100010
+435	 0   1     0000100010
+NOP
+440	 1   1     0000100011
+445	 0   1     0000100011
+NOP
+450	 1   1     0000100100
+455	 0   1     0000100100
+NOP
+460	 1   1     0000100101
+465	 0   1     0000100101
+NOP
+470	 1   1     0000100110
+475	 0   1     0000100110
+NOP
+480	 1   1     0000100111
+485	 0   1     0000100111
+NOP
+490	 1   1     0000101000
+495	 0   1     0000101000
+NOP
+500	 1   1     0000101001
+505	 0   1     0000101001
+NOP
+510	 1   1     0000101010
+515	 0   1     0000101010
+NOP
+520	 1   1     0000101011
+525	 0   1     0000101011
+NOP
+530	 1   1     0000101100
+535	 0   1     0000101100
+NOP
+540	 1   1     0000101101
+545	 0   1     0000101101
+NOP
+550	 1   1     0000101110
+555	 0   1     0000101110
+NOP
+560	 1   1     0000101111
+565	 0   1     0000101111
+NOP
+570	 1   1     0000110000
+575	 0   1     0000110000
+NOP
+580	 1   1     0000110001
+585	 0   1     0000110001
+NOP
+590	 1   1     0000110010
+595	 0   1     0000110010
+NOP
+600	 1   1     0000110011
+605	 0   1     0000110011
+NOP
+610	 1   1     0000110100
+615	 0   1     0000110100
+NOP
+620	 1   1     0000110101
+625	 0   1     0000110101
+NOP
+630	 1   1     0000110110
+635	 0   1     0000110110
+NOP
+640	 1   1     0000110111
+645	 0   1     0000110111
+NOP
+650	 1   1     0000111000
+655	 0   1     0000111000
+NOP
+660	 1   1     0000111001
+665	 0   1     0000111001
+NOP
+670	 1   1     0000111010
+675	 0   1     0000111010
+NOP
+680	 1   1     0000111011
+685	 0   1     0000111011
+NOP
+690	 1   1     0000111100
+695	 0   1     0000111100
+NOP
+700	 1   1     0000111101
+705	 0   1     0000111101
+NOP
+710	 1   1     0000111110
+715	 0   1     0000111110
+NOP
+720	 1   1     0000111111
+725	 0   1     0000111111
+NOP
+730	 1   1     0001000000
+735	 0   1     0001000000
+NOP
+740	 1   1     0001000001
+745	 0   1     0001000001
+NOP
+750	 1   1     0001000010
+755	 0   1     0001000010
+NOP
+760	 1   1     0001000011
+765	 0   1     0001000011
+NOP
+770	 1   1     0001000100
+775	 0   1     0001000100
+NOP
+780	 1   1     0001000101
+785	 0   1     0001000101
+NOP
+790	 1   1     0001000110
+795	 0   1     0001000110
+NOP
+800	 1   1     0001000111
+805	 0   1     0001000111
+NOP
+810	 1   1     0001001000
+815	 0   1     0001001000
+NOP
+820	 1   1     0001001001
+825	 0   1     0001001001
+NOP
+830	 1   1     0001001010
+835	 0   1     0001001010
+NOP
+840	 1   1     0001001011
+845	 0   1     0001001011
+NOP
+850	 1   1     0001001100
+855	 0   1     0001001100
+NOP
+860	 1   1     0001001101
+865	 0   1     0001001101
+NOP
+870	 1   1     0001001110
+875	 0   1     0001001110
+NOP
+880	 1   1     0001001111
+885	 0   1     0001001111
+NOP
+890	 1   1     0001010000
+895	 0   1     0001010000
+NOP
+900	 1   1     0001010001
+905	 0   1     0001010001
+NOP
+910	 1   1     0001010010
+915	 0   1     0001010010
+NOP
+920	 1   1     0001010011
+925	 0   1     0001010011
+NOP
+930	 1   1     0001010100
+935	 0   1     0001010100
+NOP
+940	 1   1     0001010101
+945	 0   1     0001010101
+NOP
+950	 1   1     0001010110
+955	 0   1     0001010110
+NOP
+960	 1   1     0001010111
+965	 0   1     0001010111
+NOP
+970	 1   1     0001011000
+975	 0   1     0001011000
+NOP
+980	 1   1     0001011001
+985	 0   1     0001011001
+NOP
+990	 1   1     0001011010
+995	 0   1     0001011010
+NOP
+1000	 1   1     0001011011
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Simulation_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 1625.590 ; gain = 0.000
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'Simulation'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Simulation_vlog.prj"
+ECHO is off.
+ECHO is off.
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.srcs/sources_1/new/Golden_Model.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Golden_Model
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.srcs/sim_1/new/Simulation.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Simulation
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'Simulation'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Simulation_behav xil_defaultlib.Simulation xil_defaultlib.glbl -log elaborate.log"
+ECHO is off.
+ECHO is off.
+Vivado Simulator v2023.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Simulation_behav xil_defaultlib.Simulation xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-5021] port 'data_in' is not connected on this instance [C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.srcs/sim_1/new/Simulation.v:71]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Golden_Model
+Compiling module xil_defaultlib.Simulation
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Simulation_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Time resolution is 1 ps
+time	 clk reset enable counter
+0	 1   0     0000000000
+5	 0   0     0000000000
+10	 1   0     0000000000
+15	 0   0     0000000000
+20	 1   0     0000000000
+25	 0   0     0000000000
+30	 1   0     0000000000
+35	 0   0     0000000000
+40	 1   0     0000000000
+45	 0   0     0000000000
+50	 1   0     0000000000
+55	 0   0     0000000000
+60	 1   0     0000000000
+65	 0   0     0000000000
+70	 1   0     0000000000
+75	 0   0     0000000000
+80	 1   0     0000000000
+85	 0   0     0000000000
+90	 1   0     0000000000
+95	 0   0     0000000000
+NOP
+100	 1   1     0000000001
+105	 0   1     0000000001
+NOP
+110	 1   1     0000000010
+115	 0   1     0000000010
+NOP
+120	 1   1     0000000011
+125	 0   1     0000000011
+NOP
+130	 1   1     0000000100
+135	 0   1     0000000100
+NOP
+140	 1   1     0000000101
+145	 0   1     0000000101
+NOP
+150	 1   1     0000000110
+155	 0   1     0000000110
+NOP
+160	 1   1     0000000111
+165	 0   1     0000000111
+NOP
+170	 1   1     0000001000
+175	 0   1     0000001000
+NOP
+180	 1   1     0000001001
+185	 0   1     0000001001
+NOP
+190	 1   1     0000001010
+195	 0   1     0000001010
+NOP
+200	 1   1     0000001011
+205	 0   1     0000001011
+NOP
+210	 1   1     0000001100
+215	 0   1     0000001100
+NOP
+220	 1   1     0000001101
+225	 0   1     0000001101
+NOP
+230	 1   1     0000001110
+235	 0   1     0000001110
+NOP
+240	 1   1     0000001111
+245	 0   1     0000001111
+NOP
+250	 1   1     0000010000
+255	 0   1     0000010000
+NOP
+260	 1   1     0000010001
+265	 0   1     0000010001
+NOP
+270	 1   1     0000010010
+275	 0   1     0000010010
+NOP
+280	 1   1     0000010011
+285	 0   1     0000010011
+NOP
+290	 1   1     0000010100
+295	 0   1     0000010100
+NOP
+300	 1   1     0000010101
+305	 0   1     0000010101
+NOP
+310	 1   1     0000010110
+315	 0   1     0000010110
+NOP
+320	 1   1     0000010111
+325	 0   1     0000010111
+NOP
+330	 1   1     0000011000
+335	 0   1     0000011000
+NOP
+340	 1   1     0000011001
+345	 0   1     0000011001
+NOP
+350	 1   1     0000011010
+355	 0   1     0000011010
+NOP
+360	 1   1     0000011011
+365	 0   1     0000011011
+NOP
+370	 1   1     0000011100
+375	 0   1     0000011100
+NOP
+380	 1   1     0000011101
+385	 0   1     0000011101
+NOP
+390	 1   1     0000011110
+395	 0   1     0000011110
+400	 1   0     0000000000
+405	 0   0     0000000000
+410	 1   0     0000000000
+415	 0   0     0000000000
+420	 1   0     0000000000
+425	 0   0     0000000000
+430	 1   0     0000000000
+435	 0   0     0000000000
+440	 1   0     0000000000
+445	 0   0     0000000000
+450	 1   0     0000000000
+455	 0   0     0000000000
+460	 1   0     0000000000
+465	 0   0     0000000000
+470	 1   0     0000000000
+475	 0   0     0000000000
+480	 1   0     0000000000
+485	 0   0     0000000000
+490	 1   0     0000000000
+495	 0   0     0000000000
+500	 1   0     0000000000
+505	 0   0     0000000000
+510	 1   0     0000000000
+515	 0   0     0000000000
+520	 1   0     0000000000
+525	 0   0     0000000000
+530	 1   0     0000000000
+535	 0   0     0000000000
+540	 1   0     0000000000
+545	 0   0     0000000000
+550	 1   0     0000000000
+555	 0   0     0000000000
+560	 1   0     0000000000
+565	 0   0     0000000000
+570	 1   0     0000000000
+575	 0   0     0000000000
+580	 1   0     0000000000
+585	 0   0     0000000000
+590	 1   0     0000000000
+595	 0   0     0000000000
+600	 1   0     0000000000
+605	 0   0     0000000000
+610	 1   0     0000000000
+615	 0   0     0000000000
+620	 1   0     0000000000
+625	 0   0     0000000000
+630	 1   0     0000000000
+635	 0   0     0000000000
+640	 1   0     0000000000
+645	 0   0     0000000000
+650	 1   0     0000000000
+655	 0   0     0000000000
+660	 1   0     0000000000
+665	 0   0     0000000000
+670	 1   0     0000000000
+675	 0   0     0000000000
+680	 1   0     0000000000
+685	 0   0     0000000000
+690	 1   0     0000000000
+695	 0   0     0000000000
+700	 1   0     0000000000
+705	 0   0     0000000000
+710	 1   0     0000000000
+715	 0   0     0000000000
+720	 1   0     0000000000
+725	 0   0     0000000000
+730	 1   0     0000000000
+735	 0   0     0000000000
+740	 1   0     0000000000
+745	 0   0     0000000000
+750	 1   0     0000000000
+755	 0   0     0000000000
+760	 1   0     0000000000
+765	 0   0     0000000000
+770	 1   0     0000000000
+775	 0   0     0000000000
+780	 1   0     0000000000
+785	 0   0     0000000000
+790	 1   0     0000000000
+795	 0   0     0000000000
+800	 1   0     0000000000
+805	 0   0     0000000000
+810	 1   0     0000000000
+815	 0   0     0000000000
+820	 1   0     0000000000
+825	 0   0     0000000000
+830	 1   0     0000000000
+835	 0   0     0000000000
+840	 1   0     0000000000
+845	 0   0     0000000000
+850	 1   0     0000000000
+855	 0   0     0000000000
+860	 1   0     0000000000
+865	 0   0     0000000000
+870	 1   0     0000000000
+875	 0   0     0000000000
+880	 1   0     0000000000
+885	 0   0     0000000000
+890	 1   0     0000000000
+895	 0   0     0000000000
+900	 1   0     0000000000
+905	 0   0     0000000000
+910	 1   0     0000000000
+915	 0   0     0000000000
+920	 1   0     0000000000
+925	 0   0     0000000000
+930	 1   0     0000000000
+935	 0   0     0000000000
+940	 1   0     0000000000
+945	 0   0     0000000000
+950	 1   0     0000000000
+955	 0   0     0000000000
+960	 1   0     0000000000
+965	 0   0     0000000000
+970	 1   0     0000000000
+975	 0   0     0000000000
+980	 1   0     0000000000
+985	 0   0     0000000000
+990	 1   0     0000000000
+995	 0   0     0000000000
+1000	 1   0     0000000000
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 1625.590 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'Simulation'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'Simulation' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Simulation_vlog.prj"
+ECHO is off.
+ECHO is off.
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.srcs/sources_1/new/Golden_Model.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Golden_Model
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.srcs/sim_1/new/Simulation.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Simulation
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Simulation_behav xil_defaultlib.Simulation xil_defaultlib.glbl -log elaborate.log"
+ECHO is off.
+ECHO is off.
+Vivado Simulator v2023.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Simulation_behav xil_defaultlib.Simulation xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-5021] port 'data_in' is not connected on this instance [C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.srcs/sim_1/new/Simulation.v:72]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Golden_Model
+Compiling module xil_defaultlib.Simulation
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Simulation_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Simulation_behav -key {Behavioral:sim_1:Functional:Simulation} -tclbatch {Simulation.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source Simulation.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+time	 clk reset enable counter
+0	 x   0     xxxxxxxxxx
+10	 x   1     xxxxxxxxxx
+ADD
+15	 1   1     xxxxxxxxxx
+20	 0   1     xxxxxxxxxx
+ADD
+25	 1   1     xxxxxxxxxx
+30	 0   1     xxxxxxxxxx
+ADD
+35	 1   1     xxxxxxxxxx
+40	 0   1     xxxxxxxxxx
+ADD
+45	 1   1     xxxxxxxxxx
+50	 0   1     xxxxxxxxxx
+ADD
+55	 1   1     xxxxxxxxxx
+60	 0   1     xxxxxxxxxx
+ADD
+65	 1   1     xxxxxxxxxx
+70	 0   1     xxxxxxxxxx
+ADD
+75	 1   1     xxxxxxxxxx
+80	 0   1     xxxxxxxxxx
+ADD
+85	 1   1     xxxxxxxxxx
+90	 0   1     xxxxxxxxxx
+ADD
+95	 1   1     xxxxxxxxxx
+100	 0   1     xxxxxxxxxx
+ADD
+105	 1   1     xxxxxxxxxx
+110	 0   1     xxxxxxxxxx
+ADD
+115	 1   1     xxxxxxxxxx
+120	 0   1     xxxxxxxxxx
+ADD
+125	 1   1     xxxxxxxxxx
+130	 0   1     xxxxxxxxxx
+ADD
+135	 1   1     xxxxxxxxxx
+140	 0   1     xxxxxxxxxx
+ADD
+145	 1   1     xxxxxxxxxx
+150	 0   1     xxxxxxxxxx
+ADD
+155	 1   1     xxxxxxxxxx
+160	 0   1     xxxxxxxxxx
+ADD
+165	 1   1     xxxxxxxxxx
+170	 0   1     xxxxxxxxxx
+ADD
+175	 1   1     xxxxxxxxxx
+180	 0   1     xxxxxxxxxx
+ADD
+185	 1   1     xxxxxxxxxx
+190	 0   1     xxxxxxxxxx
+ADD
+195	 1   1     xxxxxxxxxx
+200	 0   1     xxxxxxxxxx
+ADD
+205	 1   1     xxxxxxxxxx
+210	 0   1     xxxxxxxxxx
+ADD
+215	 1   1     xxxxxxxxxx
+220	 0   1     xxxxxxxxxx
+ADD
+225	 1   1     xxxxxxxxxx
+230	 0   1     xxxxxxxxxx
+ADD
+235	 1   1     xxxxxxxxxx
+240	 0   1     xxxxxxxxxx
+ADD
+245	 1   1     xxxxxxxxxx
+250	 0   1     xxxxxxxxxx
+ADD
+255	 1   1     xxxxxxxxxx
+260	 0   1     xxxxxxxxxx
+ADD
+265	 1   1     xxxxxxxxxx
+270	 0   1     xxxxxxxxxx
+ADD
+275	 1   1     xxxxxxxxxx
+280	 0   1     xxxxxxxxxx
+ADD
+285	 1   1     xxxxxxxxxx
+290	 0   1     xxxxxxxxxx
+ADD
+295	 1   1     xxxxxxxxxx
+300	 0   1     xxxxxxxxxx
+ADD
+305	 1   1     xxxxxxxxxx
+310	 0   1     xxxxxxxxxx
+ADD
+315	 1   1     xxxxxxxxxx
+320	 0   1     xxxxxxxxxx
+ADD
+325	 1   1     xxxxxxxxxx
+330	 0   1     xxxxxxxxxx
+ADD
+335	 1   1     xxxxxxxxxx
+340	 0   1     xxxxxxxxxx
+ADD
+345	 1   1     xxxxxxxxxx
+350	 0   1     xxxxxxxxxx
+ADD
+355	 1   1     xxxxxxxxxx
+360	 0   1     xxxxxxxxxx
+ADD
+365	 1   1     xxxxxxxxxx
+370	 0   1     xxxxxxxxxx
+ADD
+375	 1   1     xxxxxxxxxx
+380	 0   1     xxxxxxxxxx
+ADD
+385	 1   1     xxxxxxxxxx
+390	 0   1     xxxxxxxxxx
+ADD
+395	 1   1     xxxxxxxxxx
+400	 0   1     xxxxxxxxxx
+ADD
+405	 1   1     xxxxxxxxxx
+410	 0   1     xxxxxxxxxx
+ADD
+415	 1   1     xxxxxxxxxx
+420	 0   1     xxxxxxxxxx
+ADD
+425	 1   1     xxxxxxxxxx
+430	 0   1     xxxxxxxxxx
+ADD
+435	 1   1     xxxxxxxxxx
+440	 0   1     xxxxxxxxxx
+ADD
+445	 1   1     xxxxxxxxxx
+450	 0   1     xxxxxxxxxx
+ADD
+455	 1   1     xxxxxxxxxx
+460	 0   1     xxxxxxxxxx
+ADD
+465	 1   1     xxxxxxxxxx
+470	 0   1     xxxxxxxxxx
+ADD
+475	 1   1     xxxxxxxxxx
+480	 0   1     xxxxxxxxxx
+ADD
+485	 1   1     xxxxxxxxxx
+490	 0   1     xxxxxxxxxx
+ADD
+495	 1   1     xxxxxxxxxx
+500	 0   1     xxxxxxxxxx
+ADD
+505	 1   1     xxxxxxxxxx
+510	 0   1     xxxxxxxxxx
+ADD
+515	 1   1     xxxxxxxxxx
+520	 0   1     xxxxxxxxxx
+ADD
+525	 1   1     xxxxxxxxxx
+530	 0   1     xxxxxxxxxx
+ADD
+535	 1   1     xxxxxxxxxx
+540	 0   1     xxxxxxxxxx
+ADD
+545	 1   1     xxxxxxxxxx
+550	 0   1     xxxxxxxxxx
+ADD
+555	 1   1     xxxxxxxxxx
+560	 0   1     xxxxxxxxxx
+ADD
+565	 1   1     xxxxxxxxxx
+570	 0   1     xxxxxxxxxx
+ADD
+575	 1   1     xxxxxxxxxx
+580	 0   1     xxxxxxxxxx
+ADD
+585	 1   1     xxxxxxxxxx
+590	 0   1     xxxxxxxxxx
+ADD
+595	 1   1     xxxxxxxxxx
+600	 0   1     xxxxxxxxxx
+ADD
+605	 1   1     xxxxxxxxxx
+610	 0   1     xxxxxxxxxx
+ADD
+615	 1   1     xxxxxxxxxx
+620	 0   1     xxxxxxxxxx
+ADD
+625	 1   1     xxxxxxxxxx
+630	 0   1     xxxxxxxxxx
+ADD
+635	 1   1     xxxxxxxxxx
+640	 0   1     xxxxxxxxxx
+ADD
+645	 1   1     xxxxxxxxxx
+650	 0   1     xxxxxxxxxx
+ADD
+655	 1   1     xxxxxxxxxx
+660	 0   1     xxxxxxxxxx
+ADD
+665	 1   1     xxxxxxxxxx
+670	 0   1     xxxxxxxxxx
+ADD
+675	 1   1     xxxxxxxxxx
+680	 0   1     xxxxxxxxxx
+ADD
+685	 1   1     xxxxxxxxxx
+690	 0   1     xxxxxxxxxx
+ADD
+695	 1   1     xxxxxxxxxx
+700	 0   1     xxxxxxxxxx
+ADD
+705	 1   1     xxxxxxxxxx
+710	 0   1     xxxxxxxxxx
+ADD
+715	 1   1     xxxxxxxxxx
+720	 0   1     xxxxxxxxxx
+ADD
+725	 1   1     xxxxxxxxxx
+730	 0   1     xxxxxxxxxx
+ADD
+735	 1   1     xxxxxxxxxx
+740	 0   1     xxxxxxxxxx
+ADD
+745	 1   1     xxxxxxxxxx
+750	 0   1     xxxxxxxxxx
+ADD
+755	 1   1     xxxxxxxxxx
+760	 0   1     xxxxxxxxxx
+ADD
+765	 1   1     xxxxxxxxxx
+770	 0   1     xxxxxxxxxx
+ADD
+775	 1   1     xxxxxxxxxx
+780	 0   1     xxxxxxxxxx
+ADD
+785	 1   1     xxxxxxxxxx
+790	 0   1     xxxxxxxxxx
+ADD
+795	 1   1     xxxxxxxxxx
+800	 0   1     xxxxxxxxxx
+ADD
+805	 1   1     xxxxxxxxxx
+810	 0   1     xxxxxxxxxx
+ADD
+815	 1   1     xxxxxxxxxx
+820	 0   1     xxxxxxxxxx
+ADD
+825	 1   1     xxxxxxxxxx
+830	 0   1     xxxxxxxxxx
+ADD
+835	 1   1     xxxxxxxxxx
+840	 0   1     xxxxxxxxxx
+ADD
+845	 1   1     xxxxxxxxxx
+850	 0   1     xxxxxxxxxx
+ADD
+855	 1   1     xxxxxxxxxx
+860	 0   1     xxxxxxxxxx
+ADD
+865	 1   1     xxxxxxxxxx
+870	 0   1     xxxxxxxxxx
+ADD
+875	 1   1     xxxxxxxxxx
+880	 0   1     xxxxxxxxxx
+ADD
+885	 1   1     xxxxxxxxxx
+890	 0   1     xxxxxxxxxx
+ADD
+895	 1   1     xxxxxxxxxx
+900	 0   1     xxxxxxxxxx
+ADD
+905	 1   1     xxxxxxxxxx
+910	 0   1     xxxxxxxxxx
+ADD
+915	 1   1     xxxxxxxxxx
+920	 0   1     xxxxxxxxxx
+ADD
+925	 1   1     xxxxxxxxxx
+930	 0   1     xxxxxxxxxx
+ADD
+935	 1   1     xxxxxxxxxx
+940	 0   1     xxxxxxxxxx
+ADD
+945	 1   1     xxxxxxxxxx
+950	 0   1     xxxxxxxxxx
+ADD
+955	 1   1     xxxxxxxxxx
+960	 0   1     xxxxxxxxxx
+ADD
+965	 1   1     xxxxxxxxxx
+970	 0   1     xxxxxxxxxx
+ADD
+975	 1   1     xxxxxxxxxx
+980	 0   1     xxxxxxxxxx
+ADD
+985	 1   1     xxxxxxxxxx
+990	 0   1     xxxxxxxxxx
+ADD
+995	 1   1     xxxxxxxxxx
+1000	 0   1     xxxxxxxxxx
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Simulation_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 1625.590 ; gain = 0.000
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'Simulation'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Simulation_vlog.prj"
+ECHO is off.
+ECHO is off.
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.srcs/sources_1/new/Golden_Model.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Golden_Model
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.srcs/sim_1/new/Simulation.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Simulation
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'Simulation'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Simulation_behav xil_defaultlib.Simulation xil_defaultlib.glbl -log elaborate.log"
+ECHO is off.
+ECHO is off.
+Vivado Simulator v2023.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Simulation_behav xil_defaultlib.Simulation xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-5021] port 'data_in' is not connected on this instance [C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.srcs/sim_1/new/Simulation.v:75]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Golden_Model
+Compiling module xil_defaultlib.Simulation
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Simulation_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Time resolution is 1 ps
+time	 clk reset enable counter
+0	 1   0     0000000000
+5	 0   0     0000000000
+Panik
+10	 1   1     0000000001
+15	 0   1     0000000001
+Panik
+20	 1   1     0000000010
+25	 0   1     0000000010
+Panik
+30	 1   1     0000000011
+35	 0   1     0000000011
+Panik
+40	 1   1     0000000100
+45	 0   1     0000000100
+Panik
+50	 1   1     0000000101
+55	 0   1     0000000101
+Panik
+60	 1   1     0000000110
+65	 0   1     0000000110
+Panik
+70	 1   1     0000000111
+75	 0   1     0000000111
+Panik
+80	 1   1     0000001000
+85	 0   1     0000001000
+Panik
+90	 1   1     0000001001
+95	 0   1     0000001001
+Panik
+100	 1   1     0000001010
+105	 0   1     0000001010
+Panik
+110	 1   1     0000001011
+115	 0   1     0000001011
+Panik
+120	 1   1     0000001100
+125	 0   1     0000001100
+Panik
+130	 1   1     0000001101
+135	 0   1     0000001101
+Panik
+140	 1   1     0000001110
+145	 0   1     0000001110
+Panik
+150	 1   1     0000001111
+155	 0   1     0000001111
+Panik
+160	 1   1     0000010000
+165	 0   1     0000010000
+Panik
+170	 1   1     0000010001
+175	 0   1     0000010001
+Panik
+180	 1   1     0000010010
+185	 0   1     0000010010
+Panik
+190	 1   1     0000010011
+195	 0   1     0000010011
+Panik
+200	 1   1     0000010100
+205	 0   1     0000010100
+Panik
+210	 1   1     0000010101
+215	 0   1     0000010101
+Panik
+220	 1   1     0000010110
+225	 0   1     0000010110
+Panik
+230	 1   1     0000010111
+235	 0   1     0000010111
+Panik
+240	 1   1     0000011000
+245	 0   1     0000011000
+Panik
+250	 1   1     0000011001
+255	 0   1     0000011001
+Panik
+260	 1   1     0000011010
+265	 0   1     0000011010
+Panik
+270	 1   1     0000011011
+275	 0   1     0000011011
+Panik
+280	 1   1     0000011100
+285	 0   1     0000011100
+Panik
+290	 1   1     0000011101
+295	 0   1     0000011101
+Panik
+300	 1   1     0000011110
+305	 0   1     0000011110
+Panik
+310	 1   1     0000011111
+315	 0   1     0000011111
+Panik
+320	 1   1     0000100000
+325	 0   1     0000100000
+Panik
+330	 1   1     0000100001
+335	 0   1     0000100001
+Panik
+340	 1   1     0000100010
+345	 0   1     0000100010
+Panik
+350	 1   1     0000100011
+355	 0   1     0000100011
+Panik
+360	 1   1     0000100100
+365	 0   1     0000100100
+Panik
+370	 1   1     0000100101
+375	 0   1     0000100101
+Panik
+380	 1   1     0000100110
+385	 0   1     0000100110
+Panik
+390	 1   1     0000100111
+395	 0   1     0000100111
+Panik
+400	 1   1     0000101000
+405	 0   1     0000101000
+Panik
+410	 1   1     0000101001
+415	 0   1     0000101001
+Panik
+420	 1   1     0000101010
+425	 0   1     0000101010
+Panik
+430	 1   1     0000101011
+435	 0   1     0000101011
+Panik
+440	 1   1     0000101100
+445	 0   1     0000101100
+Panik
+450	 1   1     0000101101
+455	 0   1     0000101101
+Panik
+460	 1   1     0000101110
+465	 0   1     0000101110
+Panik
+470	 1   1     0000101111
+475	 0   1     0000101111
+Panik
+480	 1   1     0000110000
+485	 0   1     0000110000
+Panik
+490	 1   1     0000110001
+495	 0   1     0000110001
+Panik
+500	 1   1     0000110010
+505	 0   1     0000110010
+Panik
+510	 1   1     0000110011
+515	 0   1     0000110011
+Panik
+520	 1   1     0000110100
+525	 0   1     0000110100
+Panik
+530	 1   1     0000110101
+535	 0   1     0000110101
+Panik
+540	 1   1     0000110110
+545	 0   1     0000110110
+Panik
+550	 1   1     0000110111
+555	 0   1     0000110111
+Panik
+560	 1   1     0000111000
+565	 0   1     0000111000
+Panik
+570	 1   1     0000111001
+575	 0   1     0000111001
+Panik
+580	 1   1     0000111010
+585	 0   1     0000111010
+Panik
+590	 1   1     0000111011
+595	 0   1     0000111011
+Panik
+600	 1   1     0000111100
+605	 0   1     0000111100
+Panik
+610	 1   1     0000111101
+615	 0   1     0000111101
+Panik
+620	 1   1     0000111110
+625	 0   1     0000111110
+Panik
+630	 1   1     0000111111
+635	 0   1     0000111111
+Panik
+640	 1   1     0001000000
+645	 0   1     0001000000
+Panik
+650	 1   1     0001000001
+655	 0   1     0001000001
+Panik
+660	 1   1     0001000010
+665	 0   1     0001000010
+Panik
+670	 1   1     0001000011
+675	 0   1     0001000011
+Panik
+680	 1   1     0001000100
+685	 0   1     0001000100
+Panik
+690	 1   1     0001000101
+695	 0   1     0001000101
+Panik
+700	 1   1     0001000110
+705	 0   1     0001000110
+Panik
+710	 1   1     0001000111
+715	 0   1     0001000111
+Panik
+720	 1   1     0001001000
+725	 0   1     0001001000
+Panik
+730	 1   1     0001001001
+735	 0   1     0001001001
+Panik
+740	 1   1     0001001010
+745	 0   1     0001001010
+Panik
+750	 1   1     0001001011
+755	 0   1     0001001011
+Panik
+760	 1   1     0001001100
+765	 0   1     0001001100
+Panik
+770	 1   1     0001001101
+775	 0   1     0001001101
+Panik
+780	 1   1     0001001110
+785	 0   1     0001001110
+Panik
+790	 1   1     0001001111
+795	 0   1     0001001111
+Panik
+800	 1   1     0001010000
+805	 0   1     0001010000
+Panik
+810	 1   1     0001010001
+815	 0   1     0001010001
+Panik
+820	 1   1     0001010010
+825	 0   1     0001010010
+Panik
+830	 1   1     0001010011
+835	 0   1     0001010011
+Panik
+840	 1   1     0001010100
+845	 0   1     0001010100
+Panik
+850	 1   1     0001010101
+855	 0   1     0001010101
+Panik
+860	 1   1     0001010110
+865	 0   1     0001010110
+Panik
+870	 1   1     0001010111
+875	 0   1     0001010111
+Panik
+880	 1   1     0001011000
+885	 0   1     0001011000
+Panik
+890	 1   1     0001011001
+895	 0   1     0001011001
+Panik
+900	 1   1     0001011010
+905	 0   1     0001011010
+Panik
+910	 1   1     0001011011
+915	 0   1     0001011011
+Panik
+920	 1   1     0001011100
+925	 0   1     0001011100
+Panik
+930	 1   1     0001011101
+935	 0   1     0001011101
+Panik
+940	 1   1     0001011110
+945	 0   1     0001011110
+Panik
+950	 1   1     0001011111
+955	 0   1     0001011111
+Panik
+960	 1   1     0001100000
+965	 0   1     0001100000
+Panik
+970	 1   1     0001100001
+975	 0   1     0001100001
+Panik
+980	 1   1     0001100010
+985	 0   1     0001100010
+Panik
+990	 1   1     0001100011
+995	 0   1     0001100011
+Panik
+1000	 1   1     0001100100
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 1625.590 ; gain = 0.000
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'Simulation'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Simulation_vlog.prj"
+ECHO is off.
+ECHO is off.
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.srcs/sources_1/new/Golden_Model.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Golden_Model
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.srcs/sim_1/new/Simulation.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Simulation
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'Simulation'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Simulation_behav xil_defaultlib.Simulation xil_defaultlib.glbl -log elaborate.log"
+ECHO is off.
+ECHO is off.
+Vivado Simulator v2023.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Simulation_behav xil_defaultlib.Simulation xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-5021] port 'data_in' is not connected on this instance [C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.srcs/sim_1/new/Simulation.v:75]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Golden_Model
+Compiling module xil_defaultlib.Simulation
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Simulation_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Time resolution is 1 ps
+time	 clk reset enable counter
+0	 1   0     0000000000
+5	 0   0     0000000000
+NOP
+10	 1   1     0000000001
+15	 0   1     0000000001
+ADD
+20	 1   1     0000000010
+25	 0   1     0000000010
+ADD
+30	 1   1     0000000011
+35	 0   1     0000000011
+ADD
+40	 1   1     0000000100
+45	 0   1     0000000100
+ADD
+50	 1   1     0000000101
+55	 0   1     0000000101
+ADD
+60	 1   1     0000000110
+65	 0   1     0000000110
+ADD
+70	 1   1     0000000111
+75	 0   1     0000000111
+ADD
+80	 1   1     0000001000
+85	 0   1     0000001000
+ADD
+90	 1   1     0000001001
+95	 0   1     0000001001
+ADD
+100	 1   1     0000001010
+105	 0   1     0000001010
+ADD
+110	 1   1     0000001011
+115	 0   1     0000001011
+ADD
+120	 1   1     0000001100
+125	 0   1     0000001100
+ADD
+130	 1   1     0000001101
+135	 0   1     0000001101
+ADD
+140	 1   1     0000001110
+145	 0   1     0000001110
+ADD
+150	 1   1     0000001111
+155	 0   1     0000001111
+ADD
+160	 1   1     0000010000
+165	 0   1     0000010000
+ADD
+170	 1   1     0000010001
+175	 0   1     0000010001
+ADD
+180	 1   1     0000010010
+185	 0   1     0000010010
+ADD
+190	 1   1     0000010011
+195	 0   1     0000010011
+ADD
+200	 1   1     0000010100
+205	 0   1     0000010100
+ADD
+210	 1   1     0000010101
+215	 0   1     0000010101
+ADD
+220	 1   1     0000010110
+225	 0   1     0000010110
+ADD
+230	 1   1     0000010111
+235	 0   1     0000010111
+ADD
+240	 1   1     0000011000
+245	 0   1     0000011000
+ADD
+250	 1   1     0000011001
+255	 0   1     0000011001
+ADD
+260	 1   1     0000011010
+265	 0   1     0000011010
+ADD
+270	 1   1     0000011011
+275	 0   1     0000011011
+ADD
+280	 1   1     0000011100
+285	 0   1     0000011100
+ADD
+290	 1   1     0000011101
+295	 0   1     0000011101
+ADD
+300	 1   1     0000011110
+305	 0   1     0000011110
+ADD
+310	 1   1     0000011111
+315	 0   1     0000011111
+ADD
+320	 1   1     0000100000
+325	 0   1     0000100000
+ADD
+330	 1   1     0000100001
+335	 0   1     0000100001
+ADD
+340	 1   1     0000100010
+345	 0   1     0000100010
+ADD
+350	 1   1     0000100011
+355	 0   1     0000100011
+ADD
+360	 1   1     0000100100
+365	 0   1     0000100100
+ADD
+370	 1   1     0000100101
+375	 0   1     0000100101
+ADD
+380	 1   1     0000100110
+385	 0   1     0000100110
+ADD
+390	 1   1     0000100111
+395	 0   1     0000100111
+ADD
+400	 1   1     0000101000
+405	 0   1     0000101000
+ADD
+410	 1   1     0000101001
+415	 0   1     0000101001
+ADD
+420	 1   1     0000101010
+425	 0   1     0000101010
+ADD
+430	 1   1     0000101011
+435	 0   1     0000101011
+ADD
+440	 1   1     0000101100
+445	 0   1     0000101100
+ADD
+450	 1   1     0000101101
+455	 0   1     0000101101
+ADD
+460	 1   1     0000101110
+465	 0   1     0000101110
+ADD
+470	 1   1     0000101111
+475	 0   1     0000101111
+ADD
+480	 1   1     0000110000
+485	 0   1     0000110000
+ADD
+490	 1   1     0000110001
+495	 0   1     0000110001
+ADD
+500	 1   1     0000110010
+505	 0   1     0000110010
+ADD
+510	 1   1     0000110011
+515	 0   1     0000110011
+ADD
+520	 1   1     0000110100
+525	 0   1     0000110100
+ADD
+530	 1   1     0000110101
+535	 0   1     0000110101
+ADD
+540	 1   1     0000110110
+545	 0   1     0000110110
+ADD
+550	 1   1     0000110111
+555	 0   1     0000110111
+ADD
+560	 1   1     0000111000
+565	 0   1     0000111000
+ADD
+570	 1   1     0000111001
+575	 0   1     0000111001
+ADD
+580	 1   1     0000111010
+585	 0   1     0000111010
+ADD
+590	 1   1     0000111011
+595	 0   1     0000111011
+ADD
+600	 1   1     0000111100
+605	 0   1     0000111100
+ADD
+610	 1   1     0000111101
+615	 0   1     0000111101
+ADD
+620	 1   1     0000111110
+625	 0   1     0000111110
+ADD
+630	 1   1     0000111111
+635	 0   1     0000111111
+ADD
+640	 1   1     0001000000
+645	 0   1     0001000000
+ADD
+650	 1   1     0001000001
+655	 0   1     0001000001
+ADD
+660	 1   1     0001000010
+665	 0   1     0001000010
+ADD
+670	 1   1     0001000011
+675	 0   1     0001000011
+ADD
+680	 1   1     0001000100
+685	 0   1     0001000100
+ADD
+690	 1   1     0001000101
+695	 0   1     0001000101
+ADD
+700	 1   1     0001000110
+705	 0   1     0001000110
+ADD
+710	 1   1     0001000111
+715	 0   1     0001000111
+ADD
+720	 1   1     0001001000
+725	 0   1     0001001000
+ADD
+730	 1   1     0001001001
+735	 0   1     0001001001
+ADD
+740	 1   1     0001001010
+745	 0   1     0001001010
+ADD
+750	 1   1     0001001011
+755	 0   1     0001001011
+ADD
+760	 1   1     0001001100
+765	 0   1     0001001100
+ADD
+770	 1   1     0001001101
+775	 0   1     0001001101
+ADD
+780	 1   1     0001001110
+785	 0   1     0001001110
+ADD
+790	 1   1     0001001111
+795	 0   1     0001001111
+ADD
+800	 1   1     0001010000
+805	 0   1     0001010000
+ADD
+810	 1   1     0001010001
+815	 0   1     0001010001
+ADD
+820	 1   1     0001010010
+825	 0   1     0001010010
+ADD
+830	 1   1     0001010011
+835	 0   1     0001010011
+ADD
+840	 1   1     0001010100
+845	 0   1     0001010100
+ADD
+850	 1   1     0001010101
+855	 0   1     0001010101
+ADD
+860	 1   1     0001010110
+865	 0   1     0001010110
+ADD
+870	 1   1     0001010111
+875	 0   1     0001010111
+ADD
+880	 1   1     0001011000
+885	 0   1     0001011000
+ADD
+890	 1   1     0001011001
+895	 0   1     0001011001
+ADD
+900	 1   1     0001011010
+905	 0   1     0001011010
+ADD
+910	 1   1     0001011011
+915	 0   1     0001011011
+ADD
+920	 1   1     0001011100
+925	 0   1     0001011100
+ADD
+930	 1   1     0001011101
+935	 0   1     0001011101
+ADD
+940	 1   1     0001011110
+945	 0   1     0001011110
+ADD
+950	 1   1     0001011111
+955	 0   1     0001011111
+ADD
+960	 1   1     0001100000
+965	 0   1     0001100000
+ADD
+970	 1   1     0001100001
+975	 0   1     0001100001
+ADD
+980	 1   1     0001100010
+985	 0   1     0001100010
+ADD
+990	 1   1     0001100011
+995	 0   1     0001100011
+ADD
+1000	 1   1     0001100100
+relaunch_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 1625.590 ; gain = 0.000
+add_bp {C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.srcs/sources_1/new/Golden_Model.v} 80
+add_bp {C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.srcs/sources_1/new/Golden_Model.v} 81
+remove_bps -file {C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.srcs/sources_1/new/Golden_Model.v} -line 80
+remove_bps -file {C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.srcs/sources_1/new/Golden_Model.v} -line 81
+add_bp {C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.srcs/sources_1/new/Golden_Model.v} 80
+add_bp {C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.srcs/sources_1/new/Golden_Model.v} 81
+remove_bps -file {C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.srcs/sources_1/new/Golden_Model.v} -line 80
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'Simulation'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Simulation_vlog.prj"
+ECHO is off.
+ECHO is off.
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'Simulation'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Simulation_behav xil_defaultlib.Simulation xil_defaultlib.glbl -log elaborate.log"
+ECHO is off.
+ECHO is off.
+Vivado Simulator v2023.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Simulation_behav xil_defaultlib.Simulation xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-5021] port 'data_in' is not connected on this instance [C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.srcs/sim_1/new/Simulation.v:75]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Time resolution is 1 ps
+time	 clk reset enable counter
+0	 1   0     0000000000
+5	 0   0     0000000000
+NOP
+10	 1   1     0000000001
+15	 0   1     0000000001
+Stopped at time : 20 ns : File "C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.srcs/sources_1/new/Golden_Model.v" Line 81
+relaunch_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 2571.359 ; gain = 0.035
+remove_bps -file {C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.srcs/sources_1/new/Golden_Model.v} -line 81
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'Simulation'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'Simulation' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Simulation_vlog.prj"
+ECHO is off.
+ECHO is off.
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.srcs/sources_1/new/Golden_Model.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Golden_Model
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.srcs/sim_1/new/Simulation.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Simulation
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Simulation_behav xil_defaultlib.Simulation xil_defaultlib.glbl -log elaborate.log"
+ECHO is off.
+ECHO is off.
+Vivado Simulator v2023.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Simulation_behav xil_defaultlib.Simulation xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-5021] port 'data_in' is not connected on this instance [C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.srcs/sim_1/new/Simulation.v:75]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Golden_Model
+Compiling module xil_defaultlib.Simulation
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Simulation_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Simulation_behav -key {Behavioral:sim_1:Functional:Simulation} -tclbatch {Simulation.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source Simulation.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+time	 clk reset enable counter
+0	 1   0     0000000000
+5	 0   0     0000000000
+NOP
+10	 1   1     0000000001
+15	 0   1     0000000001
+ADD
+20	 1   1     0000000010
+25	 0   1     0000000010
+ADD
+30	 1   1     0000000011
+35	 0   1     0000000011
+ADD
+40	 1   1     0000000100
+45	 0   1     0000000100
+ADD
+50	 1   1     0000000101
+55	 0   1     0000000101
+ADD
+60	 1   1     0000000110
+65	 0   1     0000000110
+ADD
+70	 1   1     0000000111
+75	 0   1     0000000111
+ADD
+80	 1   1     0000001000
+85	 0   1     0000001000
+ADD
+90	 1   1     0000001001
+95	 0   1     0000001001
+ADD
+100	 1   1     0000001010
+105	 0   1     0000001010
+ADD
+110	 1   1     0000001011
+115	 0   1     0000001011
+ADD
+120	 1   1     0000001100
+125	 0   1     0000001100
+ADD
+130	 1   1     0000001101
+135	 0   1     0000001101
+ADD
+140	 1   1     0000001110
+145	 0   1     0000001110
+ADD
+150	 1   1     0000001111
+155	 0   1     0000001111
+ADD
+160	 1   1     0000010000
+165	 0   1     0000010000
+ADD
+170	 1   1     0000010001
+175	 0   1     0000010001
+ADD
+180	 1   1     0000010010
+185	 0   1     0000010010
+ADD
+190	 1   1     0000010011
+195	 0   1     0000010011
+ADD
+200	 1   1     0000010100
+205	 0   1     0000010100
+ADD
+210	 1   1     0000010101
+215	 0   1     0000010101
+ADD
+220	 1   1     0000010110
+225	 0   1     0000010110
+ADD
+230	 1   1     0000010111
+235	 0   1     0000010111
+ADD
+240	 1   1     0000011000
+245	 0   1     0000011000
+ADD
+250	 1   1     0000011001
+255	 0   1     0000011001
+ADD
+260	 1   1     0000011010
+265	 0   1     0000011010
+ADD
+270	 1   1     0000011011
+275	 0   1     0000011011
+ADD
+280	 1   1     0000011100
+285	 0   1     0000011100
+ADD
+290	 1   1     0000011101
+295	 0   1     0000011101
+ADD
+300	 1   1     0000011110
+305	 0   1     0000011110
+ADD
+310	 1   1     0000011111
+315	 0   1     0000011111
+ADD
+320	 1   1     0000100000
+325	 0   1     0000100000
+ADD
+330	 1   1     0000100001
+335	 0   1     0000100001
+ADD
+340	 1   1     0000100010
+345	 0   1     0000100010
+ADD
+350	 1   1     0000100011
+355	 0   1     0000100011
+ADD
+360	 1   1     0000100100
+365	 0   1     0000100100
+ADD
+370	 1   1     0000100101
+375	 0   1     0000100101
+ADD
+380	 1   1     0000100110
+385	 0   1     0000100110
+ADD
+390	 1   1     0000100111
+395	 0   1     0000100111
+ADD
+400	 1   1     0000101000
+405	 0   1     0000101000
+ADD
+410	 1   1     0000101001
+415	 0   1     0000101001
+ADD
+420	 1   1     0000101010
+425	 0   1     0000101010
+ADD
+430	 1   1     0000101011
+435	 0   1     0000101011
+ADD
+440	 1   1     0000101100
+445	 0   1     0000101100
+ADD
+450	 1   1     0000101101
+455	 0   1     0000101101
+ADD
+460	 1   1     0000101110
+465	 0   1     0000101110
+ADD
+470	 1   1     0000101111
+475	 0   1     0000101111
+ADD
+480	 1   1     0000110000
+485	 0   1     0000110000
+ADD
+490	 1   1     0000110001
+495	 0   1     0000110001
+ADD
+500	 1   1     0000110010
+505	 0   1     0000110010
+ADD
+510	 1   1     0000110011
+515	 0   1     0000110011
+ADD
+520	 1   1     0000110100
+525	 0   1     0000110100
+ADD
+530	 1   1     0000110101
+535	 0   1     0000110101
+ADD
+540	 1   1     0000110110
+545	 0   1     0000110110
+ADD
+550	 1   1     0000110111
+555	 0   1     0000110111
+ADD
+560	 1   1     0000111000
+565	 0   1     0000111000
+ADD
+570	 1   1     0000111001
+575	 0   1     0000111001
+ADD
+580	 1   1     0000111010
+585	 0   1     0000111010
+ADD
+590	 1   1     0000111011
+595	 0   1     0000111011
+ADD
+600	 1   1     0000111100
+605	 0   1     0000111100
+ADD
+610	 1   1     0000111101
+615	 0   1     0000111101
+ADD
+620	 1   1     0000111110
+625	 0   1     0000111110
+ADD
+630	 1   1     0000111111
+635	 0   1     0000111111
+ADD
+640	 1   1     0001000000
+645	 0   1     0001000000
+ADD
+650	 1   1     0001000001
+655	 0   1     0001000001
+ADD
+660	 1   1     0001000010
+665	 0   1     0001000010
+ADD
+670	 1   1     0001000011
+675	 0   1     0001000011
+ADD
+680	 1   1     0001000100
+685	 0   1     0001000100
+ADD
+690	 1   1     0001000101
+695	 0   1     0001000101
+ADD
+700	 1   1     0001000110
+705	 0   1     0001000110
+ADD
+710	 1   1     0001000111
+715	 0   1     0001000111
+ADD
+720	 1   1     0001001000
+725	 0   1     0001001000
+ADD
+730	 1   1     0001001001
+735	 0   1     0001001001
+ADD
+740	 1   1     0001001010
+745	 0   1     0001001010
+ADD
+750	 1   1     0001001011
+755	 0   1     0001001011
+ADD
+760	 1   1     0001001100
+765	 0   1     0001001100
+ADD
+770	 1   1     0001001101
+775	 0   1     0001001101
+ADD
+780	 1   1     0001001110
+785	 0   1     0001001110
+ADD
+790	 1   1     0001001111
+795	 0   1     0001001111
+ADD
+800	 1   1     0001010000
+805	 0   1     0001010000
+ADD
+810	 1   1     0001010001
+815	 0   1     0001010001
+ADD
+820	 1   1     0001010010
+825	 0   1     0001010010
+ADD
+830	 1   1     0001010011
+835	 0   1     0001010011
+ADD
+840	 1   1     0001010100
+845	 0   1     0001010100
+ADD
+850	 1   1     0001010101
+855	 0   1     0001010101
+ADD
+860	 1   1     0001010110
+865	 0   1     0001010110
+ADD
+870	 1   1     0001010111
+875	 0   1     0001010111
+ADD
+880	 1   1     0001011000
+885	 0   1     0001011000
+ADD
+890	 1   1     0001011001
+895	 0   1     0001011001
+ADD
+900	 1   1     0001011010
+905	 0   1     0001011010
+ADD
+910	 1   1     0001011011
+915	 0   1     0001011011
+ADD
+920	 1   1     0001011100
+925	 0   1     0001011100
+ADD
+930	 1   1     0001011101
+935	 0   1     0001011101
+ADD
+940	 1   1     0001011110
+945	 0   1     0001011110
+ADD
+950	 1   1     0001011111
+955	 0   1     0001011111
+ADD
+960	 1   1     0001100000
+965	 0   1     0001100000
+ADD
+970	 1   1     0001100001
+975	 0   1     0001100001
+ADD
+980	 1   1     0001100010
+985	 0   1     0001100010
+ADD
+990	 1   1     0001100011
+995	 0   1     0001100011
+ADD
+1000	 1   1     0001100100
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Simulation_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 2601.027 ; gain = 26.152
+add_bp {C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.srcs/sources_1/new/Golden_Model.v} 83
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'Simulation'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Simulation_vlog.prj"
+ECHO is off.
+ECHO is off.
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'Simulation'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Simulation_behav xil_defaultlib.Simulation xil_defaultlib.glbl -log elaborate.log"
+ECHO is off.
+ECHO is off.
+Vivado Simulator v2023.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Simulation_behav xil_defaultlib.Simulation xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-5021] port 'data_in' is not connected on this instance [C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.srcs/sim_1/new/Simulation.v:75]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Time resolution is 1 ps
+time	 clk reset enable counter
+0	 1   0     0000000000
+5	 0   0     0000000000
+NOP
+10	 1   1     0000000001
+15	 0   1     0000000001
+Stopped at time : 20 ns : File "C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.srcs/sources_1/new/Golden_Model.v" Line 83
+relaunch_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 2601.027 ; gain = 0.000
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'Simulation'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Simulation_vlog.prj"
+ECHO is off.
+ECHO is off.
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.srcs/sources_1/new/Golden_Model.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Golden_Model
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.srcs/sim_1/new/Simulation.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Simulation
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'Simulation'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Simulation_behav xil_defaultlib.Simulation xil_defaultlib.glbl -log elaborate.log"
+ECHO is off.
+ECHO is off.
+Vivado Simulator v2023.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Simulation_behav xil_defaultlib.Simulation xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-5021] port 'data_in' is not connected on this instance [C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.srcs/sim_1/new/Simulation.v:75]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Golden_Model
+Compiling module xil_defaultlib.Simulation
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Simulation_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Time resolution is 1 ps
+time	 clk reset enable counter
+0	 1   0     0000000000
+5	 0   0     0000000000
+NOP
+10	 1   1     0000000001
+15	 0   1     0000000001
+Stopped at time : 20 ns : File "C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.srcs/sources_1/new/Golden_Model.v" Line 83
+relaunch_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 2601.027 ; gain = 0.000
+remove_bps -file {C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.srcs/sources_1/new/Golden_Model.v} -line 83
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'Simulation'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Simulation_vlog.prj"
+ECHO is off.
+ECHO is off.
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.srcs/sources_1/new/Golden_Model.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Golden_Model
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.srcs/sim_1/new/Simulation.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Simulation
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'Simulation'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Simulation_behav xil_defaultlib.Simulation xil_defaultlib.glbl -log elaborate.log"
+ECHO is off.
+ECHO is off.
+Vivado Simulator v2023.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Simulation_behav xil_defaultlib.Simulation xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-5021] port 'data_in' is not connected on this instance [C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.srcs/sim_1/new/Simulation.v:75]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Golden_Model
+Compiling module xil_defaultlib.Simulation
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Simulation_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Time resolution is 1 ps
+time	 clk reset enable counter
+0	 1   0     0000000000
+5	 0   0     0000000000
+NOP
+10	 1   1     0000000001
+15	 0   1     0000000001
+ADD
+20	 1   1     0000000010
+25	 0   1     0000000010
+ADD
+30	 1   1     0000000011
+35	 0   1     0000000011
+ADD
+40	 1   1     0000000100
+45	 0   1     0000000100
+ADD
+50	 1   1     0000000101
+55	 0   1     0000000101
+ADD
+60	 1   1     0000000110
+65	 0   1     0000000110
+ADD
+70	 1   1     0000000111
+75	 0   1     0000000111
+ADD
+80	 1   1     0000001000
+85	 0   1     0000001000
+ADD
+90	 1   1     0000001001
+95	 0   1     0000001001
+ADD
+100	 1   1     0000001010
+105	 0   1     0000001010
+ADD
+110	 1   1     0000001011
+115	 0   1     0000001011
+ADD
+120	 1   1     0000001100
+125	 0   1     0000001100
+ADD
+130	 1   1     0000001101
+135	 0   1     0000001101
+ADD
+140	 1   1     0000001110
+145	 0   1     0000001110
+ADD
+150	 1   1     0000001111
+155	 0   1     0000001111
+ADD
+160	 1   1     0000010000
+165	 0   1     0000010000
+ADD
+170	 1   1     0000010001
+175	 0   1     0000010001
+ADD
+180	 1   1     0000010010
+185	 0   1     0000010010
+ADD
+190	 1   1     0000010011
+195	 0   1     0000010011
+ADD
+200	 1   1     0000010100
+205	 0   1     0000010100
+ADD
+210	 1   1     0000010101
+215	 0   1     0000010101
+ADD
+220	 1   1     0000010110
+225	 0   1     0000010110
+ADD
+230	 1   1     0000010111
+235	 0   1     0000010111
+ADD
+240	 1   1     0000011000
+245	 0   1     0000011000
+ADD
+250	 1   1     0000011001
+255	 0   1     0000011001
+ADD
+260	 1   1     0000011010
+265	 0   1     0000011010
+ADD
+270	 1   1     0000011011
+275	 0   1     0000011011
+ADD
+280	 1   1     0000011100
+285	 0   1     0000011100
+ADD
+290	 1   1     0000011101
+295	 0   1     0000011101
+ADD
+300	 1   1     0000011110
+305	 0   1     0000011110
+ADD
+310	 1   1     0000011111
+315	 0   1     0000011111
+ADD
+320	 1   1     0000100000
+325	 0   1     0000100000
+ADD
+330	 1   1     0000100001
+335	 0   1     0000100001
+ADD
+340	 1   1     0000100010
+345	 0   1     0000100010
+ADD
+350	 1   1     0000100011
+355	 0   1     0000100011
+ADD
+360	 1   1     0000100100
+365	 0   1     0000100100
+ADD
+370	 1   1     0000100101
+375	 0   1     0000100101
+ADD
+380	 1   1     0000100110
+385	 0   1     0000100110
+ADD
+390	 1   1     0000100111
+395	 0   1     0000100111
+ADD
+400	 1   1     0000101000
+405	 0   1     0000101000
+ADD
+410	 1   1     0000101001
+415	 0   1     0000101001
+ADD
+420	 1   1     0000101010
+425	 0   1     0000101010
+ADD
+430	 1   1     0000101011
+435	 0   1     0000101011
+ADD
+440	 1   1     0000101100
+445	 0   1     0000101100
+ADD
+450	 1   1     0000101101
+455	 0   1     0000101101
+ADD
+460	 1   1     0000101110
+465	 0   1     0000101110
+ADD
+470	 1   1     0000101111
+475	 0   1     0000101111
+ADD
+480	 1   1     0000110000
+485	 0   1     0000110000
+ADD
+490	 1   1     0000110001
+495	 0   1     0000110001
+ADD
+500	 1   1     0000110010
+505	 0   1     0000110010
+ADD
+510	 1   1     0000110011
+515	 0   1     0000110011
+ADD
+520	 1   1     0000110100
+525	 0   1     0000110100
+ADD
+530	 1   1     0000110101
+535	 0   1     0000110101
+ADD
+540	 1   1     0000110110
+545	 0   1     0000110110
+ADD
+550	 1   1     0000110111
+555	 0   1     0000110111
+ADD
+560	 1   1     0000111000
+565	 0   1     0000111000
+ADD
+570	 1   1     0000111001
+575	 0   1     0000111001
+ADD
+580	 1   1     0000111010
+585	 0   1     0000111010
+ADD
+590	 1   1     0000111011
+595	 0   1     0000111011
+ADD
+600	 1   1     0000111100
+605	 0   1     0000111100
+ADD
+610	 1   1     0000111101
+615	 0   1     0000111101
+ADD
+620	 1   1     0000111110
+625	 0   1     0000111110
+ADD
+630	 1   1     0000111111
+635	 0   1     0000111111
+ADD
+640	 1   1     0001000000
+645	 0   1     0001000000
+ADD
+650	 1   1     0001000001
+655	 0   1     0001000001
+ADD
+660	 1   1     0001000010
+665	 0   1     0001000010
+ADD
+670	 1   1     0001000011
+675	 0   1     0001000011
+ADD
+680	 1   1     0001000100
+685	 0   1     0001000100
+ADD
+690	 1   1     0001000101
+695	 0   1     0001000101
+ADD
+700	 1   1     0001000110
+705	 0   1     0001000110
+ADD
+710	 1   1     0001000111
+715	 0   1     0001000111
+ADD
+720	 1   1     0001001000
+725	 0   1     0001001000
+ADD
+730	 1   1     0001001001
+735	 0   1     0001001001
+ADD
+740	 1   1     0001001010
+745	 0   1     0001001010
+ADD
+750	 1   1     0001001011
+755	 0   1     0001001011
+ADD
+760	 1   1     0001001100
+765	 0   1     0001001100
+ADD
+770	 1   1     0001001101
+775	 0   1     0001001101
+ADD
+780	 1   1     0001001110
+785	 0   1     0001001110
+ADD
+790	 1   1     0001001111
+795	 0   1     0001001111
+ADD
+800	 1   1     0001010000
+805	 0   1     0001010000
+ADD
+810	 1   1     0001010001
+815	 0   1     0001010001
+ADD
+820	 1   1     0001010010
+825	 0   1     0001010010
+ADD
+830	 1   1     0001010011
+835	 0   1     0001010011
+ADD
+840	 1   1     0001010100
+845	 0   1     0001010100
+ADD
+850	 1   1     0001010101
+855	 0   1     0001010101
+ADD
+860	 1   1     0001010110
+865	 0   1     0001010110
+ADD
+870	 1   1     0001010111
+875	 0   1     0001010111
+ADD
+880	 1   1     0001011000
+885	 0   1     0001011000
+ADD
+890	 1   1     0001011001
+895	 0   1     0001011001
+ADD
+900	 1   1     0001011010
+905	 0   1     0001011010
+ADD
+910	 1   1     0001011011
+915	 0   1     0001011011
+ADD
+920	 1   1     0001011100
+925	 0   1     0001011100
+ADD
+930	 1   1     0001011101
+935	 0   1     0001011101
+ADD
+940	 1   1     0001011110
+945	 0   1     0001011110
+ADD
+950	 1   1     0001011111
+955	 0   1     0001011111
+ADD
+960	 1   1     0001100000
+965	 0   1     0001100000
+ADD
+970	 1   1     0001100001
+975	 0   1     0001100001
+ADD
+980	 1   1     0001100010
+985	 0   1     0001100010
+ADD
+990	 1   1     0001100011
+995	 0   1     0001100011
+ADD
+1000	 1   1     0001100100
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 2601.027 ; gain = 0.000
+add_bp {C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.srcs/sources_1/new/Golden_Model.v} 83
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'Simulation'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Simulation_vlog.prj"
+ECHO is off.
+ECHO is off.
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'Simulation'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Simulation_behav xil_defaultlib.Simulation xil_defaultlib.glbl -log elaborate.log"
+ECHO is off.
+ECHO is off.
+Vivado Simulator v2023.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Simulation_behav xil_defaultlib.Simulation xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-5021] port 'data_in' is not connected on this instance [C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.srcs/sim_1/new/Simulation.v:75]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Time resolution is 1 ps
+time	 clk reset enable counter
+0	 1   0     0000000000
+5	 0   0     0000000000
+NOP
+10	 1   1     0000000001
+15	 0   1     0000000001
+Stopped at time : 20 ns : File "C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.srcs/sources_1/new/Golden_Model.v" Line 83
+relaunch_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 2601.027 ; gain = 0.000
+add_bp {C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.srcs/sources_1/new/Golden_Model.v} 81
+remove_bps -file {C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.srcs/sources_1/new/Golden_Model.v} -line 83
+add_bp {C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.srcs/sources_1/new/Golden_Model.v} 82
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'Simulation'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Simulation_vlog.prj"
+ECHO is off.
+ECHO is off.
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'Simulation'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Simulation_behav xil_defaultlib.Simulation xil_defaultlib.glbl -log elaborate.log"
+ECHO is off.
+ECHO is off.
+Vivado Simulator v2023.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Simulation_behav xil_defaultlib.Simulation xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-5021] port 'data_in' is not connected on this instance [C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.srcs/sim_1/new/Simulation.v:75]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Time resolution is 1 ps
+time	 clk reset enable counter
+0	 1   0     0000000000
+5	 0   0     0000000000
+NOP
+10	 1   1     0000000001
+15	 0   1     0000000001
+Stopped at time : 20 ns : File "C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.srcs/sources_1/new/Golden_Model.v" Line 81
+relaunch_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 2601.027 ; gain = 0.000
+run all
+Stopped at time : 20 ns : File "C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.srcs/sources_1/new/Golden_Model.v" Line 82
+remove_bps -file {C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.srcs/sources_1/new/Golden_Model.v} -line 81
+remove_bps -file {C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.srcs/sources_1/new/Golden_Model.v} -line 82
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'Simulation'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'Simulation' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Simulation_vlog.prj"
+ECHO is off.
+ECHO is off.
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.srcs/sources_1/new/Golden_Model.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Golden_Model
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.srcs/sim_1/new/Simulation.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Simulation
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Simulation_behav xil_defaultlib.Simulation xil_defaultlib.glbl -log elaborate.log"
+ECHO is off.
+ECHO is off.
+Vivado Simulator v2023.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Simulation_behav xil_defaultlib.Simulation xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-5021] port 'data_in' is not connected on this instance [C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.srcs/sim_1/new/Simulation.v:75]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Golden_Model
+Compiling module xil_defaultlib.Simulation
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Simulation_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Simulation_behav -key {Behavioral:sim_1:Functional:Simulation} -tclbatch {Simulation.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source Simulation.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+time	 clk reset enable counter
+0	 1   0     0000000000
+5	 0   0     0000000000
+NOP
+10	 1   1     0000000001
+15	 0   1     0000000001
+ADD
+20	 1   1     0000000010
+25	 0   1     0000000010
+ADD
+30	 1   1     0000000011
+35	 0   1     0000000011
+ADD
+40	 1   1     0000000100
+45	 0   1     0000000100
+ADD
+50	 1   1     0000000101
+55	 0   1     0000000101
+ADD
+60	 1   1     0000000110
+65	 0   1     0000000110
+ADD
+70	 1   1     0000000111
+75	 0   1     0000000111
+ADD
+80	 1   1     0000001000
+85	 0   1     0000001000
+ADD
+90	 1   1     0000001001
+95	 0   1     0000001001
+ADD
+100	 1   1     0000001010
+105	 0   1     0000001010
+ADD
+110	 1   1     0000001011
+115	 0   1     0000001011
+ADD
+120	 1   1     0000001100
+125	 0   1     0000001100
+ADD
+130	 1   1     0000001101
+135	 0   1     0000001101
+ADD
+140	 1   1     0000001110
+145	 0   1     0000001110
+ADD
+150	 1   1     0000001111
+155	 0   1     0000001111
+ADD
+160	 1   1     0000010000
+165	 0   1     0000010000
+ADD
+170	 1   1     0000010001
+175	 0   1     0000010001
+ADD
+180	 1   1     0000010010
+185	 0   1     0000010010
+ADD
+190	 1   1     0000010011
+195	 0   1     0000010011
+ADD
+200	 1   1     0000010100
+205	 0   1     0000010100
+ADD
+210	 1   1     0000010101
+215	 0   1     0000010101
+ADD
+220	 1   1     0000010110
+225	 0   1     0000010110
+ADD
+230	 1   1     0000010111
+235	 0   1     0000010111
+ADD
+240	 1   1     0000011000
+245	 0   1     0000011000
+ADD
+250	 1   1     0000011001
+255	 0   1     0000011001
+ADD
+260	 1   1     0000011010
+265	 0   1     0000011010
+ADD
+270	 1   1     0000011011
+275	 0   1     0000011011
+ADD
+280	 1   1     0000011100
+285	 0   1     0000011100
+ADD
+290	 1   1     0000011101
+295	 0   1     0000011101
+ADD
+300	 1   1     0000011110
+305	 0   1     0000011110
+ADD
+310	 1   1     0000011111
+315	 0   1     0000011111
+ADD
+320	 1   1     0000100000
+325	 0   1     0000100000
+ADD
+330	 1   1     0000100001
+335	 0   1     0000100001
+ADD
+340	 1   1     0000100010
+345	 0   1     0000100010
+ADD
+350	 1   1     0000100011
+355	 0   1     0000100011
+ADD
+360	 1   1     0000100100
+365	 0   1     0000100100
+ADD
+370	 1   1     0000100101
+375	 0   1     0000100101
+ADD
+380	 1   1     0000100110
+385	 0   1     0000100110
+ADD
+390	 1   1     0000100111
+395	 0   1     0000100111
+ADD
+400	 1   1     0000101000
+405	 0   1     0000101000
+ADD
+410	 1   1     0000101001
+415	 0   1     0000101001
+ADD
+420	 1   1     0000101010
+425	 0   1     0000101010
+ADD
+430	 1   1     0000101011
+435	 0   1     0000101011
+ADD
+440	 1   1     0000101100
+445	 0   1     0000101100
+ADD
+450	 1   1     0000101101
+455	 0   1     0000101101
+ADD
+460	 1   1     0000101110
+465	 0   1     0000101110
+ADD
+470	 1   1     0000101111
+475	 0   1     0000101111
+ADD
+480	 1   1     0000110000
+485	 0   1     0000110000
+ADD
+490	 1   1     0000110001
+495	 0   1     0000110001
+ADD
+500	 1   1     0000110010
+505	 0   1     0000110010
+ADD
+510	 1   1     0000110011
+515	 0   1     0000110011
+ADD
+520	 1   1     0000110100
+525	 0   1     0000110100
+ADD
+530	 1   1     0000110101
+535	 0   1     0000110101
+ADD
+540	 1   1     0000110110
+545	 0   1     0000110110
+ADD
+550	 1   1     0000110111
+555	 0   1     0000110111
+ADD
+560	 1   1     0000111000
+565	 0   1     0000111000
+ADD
+570	 1   1     0000111001
+575	 0   1     0000111001
+ADD
+580	 1   1     0000111010
+585	 0   1     0000111010
+ADD
+590	 1   1     0000111011
+595	 0   1     0000111011
+ADD
+600	 1   1     0000111100
+605	 0   1     0000111100
+ADD
+610	 1   1     0000111101
+615	 0   1     0000111101
+ADD
+620	 1   1     0000111110
+625	 0   1     0000111110
+ADD
+630	 1   1     0000111111
+635	 0   1     0000111111
+ADD
+640	 1   1     0001000000
+645	 0   1     0001000000
+ADD
+650	 1   1     0001000001
+655	 0   1     0001000001
+ADD
+660	 1   1     0001000010
+665	 0   1     0001000010
+ADD
+670	 1   1     0001000011
+675	 0   1     0001000011
+ADD
+680	 1   1     0001000100
+685	 0   1     0001000100
+ADD
+690	 1   1     0001000101
+695	 0   1     0001000101
+ADD
+700	 1   1     0001000110
+705	 0   1     0001000110
+ADD
+710	 1   1     0001000111
+715	 0   1     0001000111
+ADD
+720	 1   1     0001001000
+725	 0   1     0001001000
+ADD
+730	 1   1     0001001001
+735	 0   1     0001001001
+ADD
+740	 1   1     0001001010
+745	 0   1     0001001010
+ADD
+750	 1   1     0001001011
+755	 0   1     0001001011
+ADD
+760	 1   1     0001001100
+765	 0   1     0001001100
+ADD
+770	 1   1     0001001101
+775	 0   1     0001001101
+ADD
+780	 1   1     0001001110
+785	 0   1     0001001110
+ADD
+790	 1   1     0001001111
+795	 0   1     0001001111
+ADD
+800	 1   1     0001010000
+805	 0   1     0001010000
+ADD
+810	 1   1     0001010001
+815	 0   1     0001010001
+ADD
+820	 1   1     0001010010
+825	 0   1     0001010010
+ADD
+830	 1   1     0001010011
+835	 0   1     0001010011
+ADD
+840	 1   1     0001010100
+845	 0   1     0001010100
+ADD
+850	 1   1     0001010101
+855	 0   1     0001010101
+ADD
+860	 1   1     0001010110
+865	 0   1     0001010110
+ADD
+870	 1   1     0001010111
+875	 0   1     0001010111
+ADD
+880	 1   1     0001011000
+885	 0   1     0001011000
+ADD
+890	 1   1     0001011001
+895	 0   1     0001011001
+ADD
+900	 1   1     0001011010
+905	 0   1     0001011010
+ADD
+910	 1   1     0001011011
+915	 0   1     0001011011
+ADD
+920	 1   1     0001011100
+925	 0   1     0001011100
+ADD
+930	 1   1     0001011101
+935	 0   1     0001011101
+ADD
+940	 1   1     0001011110
+945	 0   1     0001011110
+ADD
+950	 1   1     0001011111
+955	 0   1     0001011111
+ADD
+960	 1   1     0001100000
+965	 0   1     0001100000
+ADD
+970	 1   1     0001100001
+975	 0   1     0001100001
+ADD
+980	 1   1     0001100010
+985	 0   1     0001100010
+ADD
+990	 1   1     0001100011
+995	 0   1     0001100011
+ADD
+1000	 1   1     0001100100
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Simulation_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 2601.027 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'Simulation'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'Simulation' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Simulation_vlog.prj"
+ECHO is off.
+ECHO is off.
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.srcs/sources_1/new/Golden_Model.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Golden_Model
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.srcs/sim_1/new/Simulation.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Simulation
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Simulation_behav xil_defaultlib.Simulation xil_defaultlib.glbl -log elaborate.log"
+ECHO is off.
+ECHO is off.
+Vivado Simulator v2023.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Simulation_behav xil_defaultlib.Simulation xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-5021] port 'data_in' is not connected on this instance [C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.srcs/sim_1/new/Simulation.v:100]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Golden_Model
+Compiling module xil_defaultlib.Simulation
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Simulation_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Simulation_behav -key {Behavioral:sim_1:Functional:Simulation} -tclbatch {Simulation.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source Simulation.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+time	 clk reset enable counter
+0	 1   0     0000000000
+5	 0   0     0000000000
+NOP
+10	 1   1     0000000001
+15	 0   1     0000000001
+ADD
+20	 1   1     0000000010
+25	 0   1     0000000010
+ADD
+30	 1   1     0000000011
+35	 0   1     0000000011
+Panik
+40	 1   1     0000000100
+45	 0   1     0000000100
+Panik
+50	 1   1     0000000101
+55	 0   1     0000000101
+SUB
+60	 1   1     0000000110
+65	 0   1     0000000110
+SUB
+70	 1   1     0000000111
+75	 0   1     0000000111
+SUB
+80	 1   1     0000001000
+85	 0   1     0000001000
+SUBF
+90	 1   1     0000001001
+95	 0   1     0000001001
+$finish called at time : 100 ns : File "C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.srcs/sim_1/new/Simulation.v" Line 97
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Simulation_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 2601.027 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Nov  1 21:33:38 2023...

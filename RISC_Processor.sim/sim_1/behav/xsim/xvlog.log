@@ -1,0 +1,5 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.srcs/sources_1/new/Golden_Model.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Golden_Model
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.srcs/sim_1/new/Simulation.v" into library xil_defaultlib
+WARNING: [VRFC 10-9157] macro 'R7' is redefined [C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.srcs/sim_1/new/Simulation.v:36]
+INFO: [VRFC 10-311] analyzing module Simulation

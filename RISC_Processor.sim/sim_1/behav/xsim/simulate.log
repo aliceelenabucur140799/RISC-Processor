@@ -1,0 +1,34 @@
+Time resolution is 1 ps
+time	 clk reset enable counter
+0	 1   0     0000000000
+5	 0   0     0000000000
+ADD correct
+ADD
+10	 1   1     0000000001
+15	 0   1     0000000001
+ADD
+20	 1   1     0000000010
+SUB correct
+25	 0   1     0000000010
+SUB
+30	 1   1     0000000011
+35	 0   1     0000000011
+SUB
+40	 1   1     0000000100
+45	 0   1     0000000100
+SUB
+50	 1   1     0000000101
+55	 0   1     0000000101
+SUB
+60	 1   1     0000000110
+65	 0   1     0000000110
+SUB
+70	 1   1     0000000111
+75	 0   1     0000000111
+SUB
+80	 1   1     0000001000
+85	 0   1     0000001000
+SUB
+90	 1   1     0000001001
+95	 0   1     0000001001
+$finish called at time : 100 ns : File "C:/Users/Alice/Desktop/RISC_Processor/RISC_Processor.srcs/sim_1/new/Simulation.v" Line 88

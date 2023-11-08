@@ -1,0 +1,7 @@
+Running: xsim.dir/Golden_Model_behav/xsimk.exe -simmode gui -wdb Golden_Model_behav.wdb -simrunnum 0 -socket 51359
+Design successfully loaded
+Design Loading Memory Usage: 7876 KB (Peak: 7876 KB)
+Design Loading CPU Usage: 0 ms
+Simulation completed
+Simulation Memory Usage: 8424 KB (Peak: 8424 KB)
+Simulation CPU Usage: 15 ms
